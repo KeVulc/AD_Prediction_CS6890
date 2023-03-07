@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 average_loss = []
 average_test_acc = []
 epochs = range(100)
-with open ('test_accuracy.txt') as f:
+with open ('./AlexNet2D_tune_100_results/AlexNet2D_tune_test_accuracy.txt') as f:
   lines = f.readlines()
   for line in lines:
     average_test_acc.append(float(line))
 
 ## change count condition literal and division if batch/epoch # change
 
-with open ('train_loss.txt') as f:
+with open ('./AlexNet2D_tune_100_results/AlexNet2D_tune_train_loss.txt') as f:
   lines = f.readlines()
   temp_loss = []
   count = 0
@@ -27,7 +27,7 @@ plt.xlabel('epochs')
 plt.ylim(0, 1)
 plt.plot(epochs, average_loss, label = "average loss")
 plt.plot(epochs, average_test_acc, label = "average test acc")
-plt.savefig('AlexNet2D_SE'+str(len(epochs))+'.png')
+# plt.savefig('AlexNet2D_SE_'+str(len(epochs))+'.png')
 plt.legend()
 plt.show()
 

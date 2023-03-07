@@ -110,10 +110,10 @@ def main(options):
 
     # Initial the model
     # changed pretrained to false to compare with se version
-    # model = alexnet(pretrained=True)
+    model = alexnet(pretrained=True)
 
     # same topology including se blocks
-    model = alexnet_se(pretrained=False)
+    # model = alexnet_se(pretrained=False)
 
     # model.load_state_dict(torch.load(options.load))
 
