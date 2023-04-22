@@ -35,7 +35,8 @@ from AlexNet2D_SE_topology import alexnet_se_topology
 from metrics import getData, reportMetrics
 import metrics
 
-
+torch.manual_seed(1)
+# torch.manual_seed(17) # for ALEX2D_SE_Topology Results used in paper
 logging.basicConfig(
     format='%(asctime)s %(levelname)s: %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO)
@@ -116,11 +117,11 @@ def main(options):
     # changed pretrained to false to compare with se version
     # model = alexnet(pretrained=True)
 
-    # same topology including se blocks
-    # model = alexnet_se(pretrained=False)
+    # same topology with se block in last conv layer (trained)
+    # model = alexnet_se(pretrained=True)
 
-    # SE blocks after first two layers
-    model = alexnet_se_topology(pretrained=False)
+    # SE blocks after every convolutional layer
+    model = alexnet_se_topology()
 
     # model.load_state_dict(torch.load(options.load))
 
@@ -154,9 +155,6 @@ def main(options):
         train_loss, correct_cnt, data_train = train(model, train_loader, use_cuda, criterion, optimizer, train_loss_f)
         # each instance in one batch has 3 views
         train_avg_loss = train_loss / (len(dset_train) * 3 / options.batch_size)
-        train_avg_acu = float(correct_cnt) / (len(dset_train) * 3)
-        # logging.info(
-        #     "Average training loss is {0:.5f} at the end of epoch {1}".format(train_avg_loss.data[0], epoch_i))
         logging.info("Average training loss is {0:.5f} at the end of epoch {1}".format(train_avg_loss.data.item(), epoch_i))
         logging.info("Average training accuracy is {0:.5f} at the end of epoch {1}".format(metrics.accuracy(data_train), epoch_i))
         
@@ -181,10 +179,13 @@ def main(options):
             torch.save(model.state_dict(), open(options.save, 'wb'))
             best_data = data
             best_data_train = data_train
+    model_name = 'AlexNet2D_SE_Topology'
+    # model_name = 'AlexNet2D_SE_Pretrained'
+    # model_name = 'AlexNet2D_Pretrained'
     print('best_train')
-    reportMetrics(best_data_train)
+    reportMetrics(best_data_train, f'./{model_name}_results/{model_name}_train_data.json', True)
     print('best_test')
-    reportMetrics(best_data)
+    reportMetrics(best_data, f'./{model_name}_results/{model_name}_test_data.json', True)
     train_loss_f.close()
     test_acu_f.close()
     train_acc_f.close()
@@ -225,17 +226,7 @@ def train(model, train_loader, use_cuda, criterion, optimizer, train_loss_f):
             accuracy = float(correct_this_batch) / len(ground_truth)
             vote.append(predict)
 
-
-            
-            # logging.info("batch {0} training loss is : {1:.5f}".format(it, loss.data[0]))
-            #-------
-            # logging.info("batch {0} training loss is : {1:.5f}".format(it, loss.data.item()))
-            # logging.info("batch {0} training accuracy is : {1:.5f}".format(it, accuracy))
-
-            # write the training loss to file
-            # train_loss_f.write("{0:.5f}\n".format(loss.data[0]))
             train_loss_f.write("{0:.5f}\n".format(loss.data.item()))
-
 
             optimizer.zero_grad()
             loss.backward()
@@ -279,9 +270,7 @@ def validate(model, test_loader, use_cuda, criterion):
         y_tensor=torch.cat((y_tensor, ground_truth))
 
         correct_cnt += correct_this_batch
-        accuracy = float(correct_this_batch) / len(ground_truth)
 
-        # logging.info("batch {0} dev accuracy is : {1:.5f}".format(it, accuracy))
     
     data = getData(y_hat_tesnor.numpy(), y_tensor.numpy())
     return correct_cnt, data

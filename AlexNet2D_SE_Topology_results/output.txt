@@ -1,0 +1,26 @@
+best_train
+Metrics
+        Accuracy: 0.755
+        Error Rate: 0.245
+        Sensitivity: 0.71023
+        Specificity: 0.79018
+        Precision: 0.72674
+        Recall: 0.71023
+        F1: 0.71839
+Confusion Matrix
+[[125  51 176]
+ [ 47 177 224]
+ [172 228 400]]
+best_test
+Metrics
+        Accuracy: 0.72917
+        Error Rate: 0.27083
+        Sensitivity: 0.75556
+        Specificity: 0.70588
+        Precision: 0.69388
+        Recall: 0.75556
+        F1: 0.7234
+Confusion Matrix
+[[34 11 45]
+ [15 36 51]
+ [49 47 96]]

@@ -65,7 +65,7 @@ def alexnet(pretrained=False, **kwargs):
             p.requires_grad = True
 
     model.classifier.add_module('fc_out', nn.Linear(1000,2))
-    model.classifier.add_module('sigmoid', nn.LogSoftmax())
+    model.classifier.add_module('sigmoid', nn.LogSoftmax(dim=1))
 
     stdv = 1.0 / math.sqrt(1000)
     for p in model.classifier.fc_out.parameters():

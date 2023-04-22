@@ -1,4 +1,5 @@
 import numpy as np
+import json
 
 epsilon = 10**-7
 def accuracy(data):
@@ -67,11 +68,13 @@ def getData(y_hat, y):
     return data
 
 
-def reportMetrics(data):
-    print(
-        f'Metrics\n\tAccuracy: {round(accuracy(data), 5)}\n\tError Rate: {round(error_rate(data), 5)}\n\tSensitivity: {round(sensitivity(data), 5)}\n\tSpecificity: {round(specificity(data), 5)}\n\tPrecision: {round(precision(data), 5)}\n\tRecall: {round(recall(data), 5)}\n\tF1: {round(F1(data), 5)}')
+def reportMetrics(data, filename, save=False):
+    print(f'Metrics\n\tAccuracy: {round(accuracy(data), 5)}\n\tError Rate: {round(error_rate(data), 5)}\n\tSensitivity: {round(sensitivity(data), 5)}\n\tSpecificity: {round(specificity(data), 5)}\n\tPrecision: {round(precision(data), 5)}\n\tRecall: {round(recall(data), 5)}\n\tF1: {round(F1(data), 5)}')
     print('Confusion Matrix')
     print(getConfusion(data))
+    if save:
+        with open(f"{filename}", "w") as outfile:
+            json.dump(data, outfile)
 
 
 if __name__ == '__main__':

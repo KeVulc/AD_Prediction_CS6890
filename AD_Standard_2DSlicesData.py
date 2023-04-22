@@ -91,16 +91,16 @@ def getSlice(image_array, keyIndex, section, step = 1):
     return slice_2Dimgs
 
 def axKeySlice(image):
-    image_array = np.array(image.get_data())
+    image_array = np.array(np.asanyarray(image.dataobj))
     return getSlice(image_array, AX_INDEX, AX_SCETION)
 
 
 def corKeySlice(image):
-    image_array = np.array(image.get_data())
+    image_array = np.array(np.asanyarray(image.dataobj))
     return getSlice(image_array, COR_INDEX, COR_SCETION)
 
 
 def sagKeySlice(image):
-    image_array = np.array(image.get_data())
+    image_array = np.array(np.asanyarray(image.dataobj))
     return getSlice(image_array, SAG_INDEX, SAG_SCETION)
 

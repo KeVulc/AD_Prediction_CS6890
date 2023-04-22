@@ -36,11 +36,9 @@ class AlexNet_SE(nn.Module):
             nn.Conv2d(3, 64, kernel_size=11, stride=4, padding=2),
             nn.ReLU(inplace=True),
             nn.MaxPool2d(kernel_size=3, stride=2),
-            # SEBlock(64),
             nn.Conv2d(64, 192, kernel_size=5, padding=2),
             nn.ReLU(inplace=True),
             nn.MaxPool2d(kernel_size=3, stride=2),
-            # SEBlock(192),
             nn.Conv2d(192, 384, kernel_size=3, padding=1),
             nn.ReLU(inplace=True),
             nn.Conv2d(384, 256, kernel_size=3, padding=1),
@@ -83,20 +81,20 @@ def alexnet_se(pretrained=False, **kwargs):
         for p in model.features[10].parameters():
             p.requires_grad = True
 
-    model.features.add_module('se_block', SEBlock(256))
+    model.features[10].add_module('se_block', SEBlock(256))
     # tune the SE block
-    for p in model.features[13].parameters():
+    for p in model.features[10].se_block.parameters():
         p.requires_grad = True
 
     model.classifier.add_module('fc_out', nn.Linear(1000,2))
-    model.classifier.add_module('sigmoid', nn.LogSoftmax())
+    model.classifier.add_module('sigmoid', nn.LogSoftmax(dim=1))
 
     stdv = 1.0 / math.sqrt(1000)
     for p in model.classifier.fc_out.parameters():
         p.data.uniform_(-stdv, stdv)
 
     stdv = 1.0 / math.sqrt(256)
-    for p in model.features.se_block.parameters():
+    for p in model.features[10].se_block.parameters():
         p.data.uniform_(-stdv, stdv)
 
     return model

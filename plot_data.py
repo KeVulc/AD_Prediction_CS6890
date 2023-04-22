@@ -14,11 +14,12 @@ import matplotlib.pyplot as plt
 #       count = 0
 #       temp_loss = []
 
-
 import sys
 metrics = sys.argv[1:]
 if 'all' in metrics:
   metrics = ['acc', 'rec', 'pre', 'f1']
+train_f1 = []
+test_f1 = []
 epochs = range(100)
 for metric in metrics:
   if metric == 'acc':
@@ -35,39 +36,26 @@ for metric in metrics:
     lines = f.readlines()
     for line in lines:
       test_metric.append(float(line))
+  if metric_name == 'f1':
+    train_f1 = [x for x in train_metric]
+    test_f1 = [x for x in test_metric]
 
   with open (f'./train_{metric_name}.txt') as f:
     lines = f.readlines()
     for line in lines:
       train_metric.append(float(line))
 
+  model_name = 'AlexNet2D_SE_Topology'
+  # model_name = 'AlexNet2D_SE_Pretrained'
+  # model_name = 'AlexNet2D_Pretrained'
+
   plt.xlabel('epochs')
   plt.ylim(0, 1)
   plt.plot(epochs, train_metric, label = f"train {metric_name}")
   plt.plot(epochs, test_metric, label = f"test {metric_name}")
   plt.legend(loc='upper left')
-  plt.savefig(f'AlexNet2D_SE_Toplogy_{len(epochs)}_{metric_name}.png')
+  plt.savefig(f'./{model_name}_results/{model_name}_{len(epochs)}_{metric_name}.png')
   plt.clf()
 
-# average_train_f1 = []
-# average_test_f1 = []
-# epochs = range(100)
-# with open ('./test_f1.txt') as f:
-#   lines = f.readlines()
-#   for line in lines:
-#     average_test_f1.append(float(line))
 
-
-# with open ('./train_f1.txt') as f:
-#   lines = f.readlines()
-#   for line in lines:
-#     average_train_f1.append(float(line))
-
-# print(f'best model test f1: {max(average_test_f1)} at epoch: {average_test_f1.index(max(average_test_f1))}')
-# plt.xlabel('epochs')
-# plt.ylim(0, 1)
-# plt.plot(epochs, average_train_f1, label = "average train f1")
-# plt.plot(epochs, average_test_f1, label = "average test f1")
-# plt.savefig('AlexNet2D_SE_Toplogy_'+str(len(epochs))+'_f1.png')
-# plt.legend()
-# plt.show()
+print(f'best model test f1: {max(test_f1)} at epoch: {test_f1.index(max(test_f1))}')

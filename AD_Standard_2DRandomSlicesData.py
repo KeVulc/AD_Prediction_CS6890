@@ -99,17 +99,17 @@ def getRandomSlice(image_array, keyIndex, section, step = 1):
     return slice_2Dimgs
 
 def axRandomSlice(image):
-    image_array = np.array(image.get_data())
+    image_array = np.array(np.asanyarray(image.dataobj))
     return getRandomSlice(image_array, AX_INDEX, AX_SCETION)
 
 
 def corRandomSlice(image):
-    image_array = np.array(image.get_data())
+    image_array = np.array(np.asanyarray(image.dataobj))
     return getRandomSlice(image_array, COR_INDEX, COR_SCETION)
 
 
 def sagRandomSlice(image):
-    image_array = np.array(image.get_data())
+    image_array = np.array(np.asanyarray(image.dataobj))
     return getRandomSlice(image_array, SAG_INDEX, SAG_SCETION)
 
 
