@@ -1,4 +1,7 @@
 __pycache__/
 Image/
 ./*.pyc 
+./AlexNet2_Pretrained_results/AlexNet2D_Pretrained_Model
+./AlexNet2D_SE_Pretrained_results/AlexNet2D_SE_Pretrained_Model
+./AlexNet2D_SE_Topology_results/AlexNet2D_SE_Topology_Model
 ./AlexNet2D_Topology_results/AlexNet2D_Topology_Model
