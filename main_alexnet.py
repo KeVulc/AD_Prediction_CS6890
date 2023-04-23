@@ -30,10 +30,8 @@ from collections import Counter
 from custom_transform2D import CustomResize
 from custom_transform2D import CustomToTensor
 
-from AD_Dataset import AD_Dataset
 from AD_Standard_2DSlicesData import AD_Standard_2DSlicesData
 from AD_Standard_2DRandomSlicesData import AD_Standard_2DRandomSlicesData
-from AD_Standard_2DTestingSlices import AD_Standard_2DTestingSlices
 
 from AlexNet2D import alexnet
 from AlexNet2D_SE import alexnet_se
@@ -103,14 +101,14 @@ def main(options):
                              batch_size=options.batch_size,
                              shuffle=False,
                              num_workers=4,
-                             drop_last=True
+                             drop_last=False
                             )
 
     test_loader = DataLoader(dset_test,
                              batch_size=options.batch_size,
                              shuffle=False,
                              num_workers=4,
-                             drop_last=True
+                             drop_last=False
                             )
 
     use_cuda = (len(options.gpuid) >= 1)
@@ -118,7 +116,8 @@ def main(options):
         cuda.set_device(options.gpuid[0])
 
     # Initial the model
-    model = alexnet(pretrained=False)
+    model = alexnet(pretrained=True)
+
     # same topology with se block in last conv layer (trained)
     # model = alexnet_se(pretrained=True)
 

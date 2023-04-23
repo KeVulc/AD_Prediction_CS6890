@@ -73,3 +73,11 @@
 022_S_0129.nii AD
 099_S_0534.nii Normal
 099_S_4076.nii Normal
+073_S_4762.nii Normal
+011_S_0005.nii Normal
+020_S_0883.nii Normal
+082_S_0640.nii Normal
+127_S_4198.nii Normal
+032_S_1101.nii AD
+020_S_0213.nii AD
+032_S_4429.nii Normal
