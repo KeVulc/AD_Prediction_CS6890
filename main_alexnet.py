@@ -101,12 +101,12 @@ def main(options):
                              batch_size=options.batch_size,
                              shuffle=False,
                              num_workers=4,
-                             drop_last=False
+                             drop_last=True
                             )
 
     test_loader = DataLoader(dset_test,
                              batch_size=options.batch_size,
-                             shuffle=False,
+                             shuffle=True,
                              num_workers=4,
                              drop_last=False
                             )
