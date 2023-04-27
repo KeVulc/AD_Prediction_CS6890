@@ -2,11 +2,6 @@ import random
 import torch
 import numpy as np
 
-SEED = 11
-torch.manual_seed(SEED)
-np.random.seed(SEED)
-random.seed(SEED)
-
 import argparse
 import logging
 
@@ -38,6 +33,8 @@ from AlexNet2D_SE import alexnet_se
 from AlexNet2D_SE_topology import alexnet_se_topology
 from metrics import getData, reportMetrics
 import metrics
+from random_splits import random_split
+
 
 import numpy as np
 logging.basicConfig(
@@ -79,6 +76,13 @@ def main(options):
     VALIDATION_PATH = 'split_validation.txt'
     TESTING_PATH = 'split_test.txt'
     IMG_PATH = './Image'
+
+    SEED = 11
+    torch.manual_seed(SEED)
+    np.random.seed(SEED)
+    random.seed(SEED)
+
+
 
     trg_size = (224, 224)
 
