@@ -2,52 +2,57 @@ import matplotlib.pyplot as plt
 
 ## change count condition literal and division if batch/epoch # change
 
+# model_name = 'AlexNet2D_Pretrained'
+# model_name = 'AlexNet2D_SE_Pretrained'
+# model_name = 'AlexNet2D_SE_Topology'
+model_name = 'AlexNet2D_Topology'
 
-pretrained_loss = []
-pretrained_se_loss = []
-topology_se_loss = []
-topology_loss = []
+losses = True
 
-
-with open ('./AlexNet2D_Pretrained_results/train_loss.txt') as f:
-  lines = f.readlines()
-  for line in lines:
-    pretrained_loss.append(float(line))
-
-
-
-with open ('./AlexNet2D_SE_Pretrained_results/train_loss.txt') as f:
-  lines = f.readlines()
-  for line in lines:
-    pretrained_se_loss.append(float(line))
+if losses:
+    pretrained_loss = []
+    pretrained_se_loss = []
+    topology_se_loss = []
+    topology_loss = []
 
 
-
-with open ('./AlexNet2D_SE_Topology_results/train_loss.txt') as f:
-  lines = f.readlines()
-  for line in lines:
-    topology_se_loss.append(float(line))
-
-with open ('./AlexNet2D_Topology_results/train_loss.txt') as f:
-  lines = f.readlines()
-  for line in lines:
-    topology_loss.append(float(line))
+    with open ('./AlexNet2D_Pretrained_results/train_loss.txt') as f:
+      lines = f.readlines()
+      for line in lines:
+        pretrained_loss.append(float(line))
 
 
-plt.xlabel('epochs')
-plt.ylim(0, 10)
-plt.plot(range(len(pretrained_loss)), pretrained_loss, label = f"AlexNet2D_Pretrained loss")
-plt.plot(range(len(pretrained_se_loss)), pretrained_se_loss, label = f"AlexNet2D_SE_Pretrained loss")
-plt.plot(range(len(topology_se_loss)), topology_se_loss, label = f"AlexNet2D_SE_Topology loss")
-plt.plot(range(len(topology_loss)), topology_loss, label = f"AlexNet2D_Topology loss")
-plt.legend(loc='upper left')
-plt.savefig(f'./losses.png')
-plt.clf()
 
-# import sys
-# metrics = sys.argv[1:]
-# if 'all' in metrics:
-#   metrics = ['acc', 'rec', 'pre', 'f1']
+    with open ('./AlexNet2D_SE_Pretrained_results/train_loss.txt') as f:
+      lines = f.readlines()
+      for line in lines:
+        pretrained_se_loss.append(float(line))
+
+
+
+    with open ('./AlexNet2D_SE_Topology_results/train_loss.txt') as f:
+      lines = f.readlines()
+      for line in lines:
+        topology_se_loss.append(float(line))
+
+    with open ('./AlexNet2D_Topology_results/train_loss.txt') as f:
+      lines = f.readlines()
+      for line in lines:
+        topology_loss.append(float(line))
+
+
+    plt.xlabel('epochs')
+    plt.ylim(0, 10)
+    plt.plot(range(len(pretrained_loss)), pretrained_loss, label = f"AlexNet2D_Pretrained loss")
+    plt.plot(range(len(pretrained_se_loss)), pretrained_se_loss, label = f"AlexNet2D_SE_Pretrained loss")
+    plt.plot(range(len(topology_se_loss)), topology_se_loss, label = f"AlexNet2D_SE_Topology loss")
+    plt.plot(range(len(topology_loss)), topology_loss, label = f"AlexNet2D_Topology loss")
+    plt.legend(loc='upper left')
+    plt.savefig(f'./losses.png')
+    plt.clf()
+
+
+# metrics = ['acc', 'rec', 'pre', 'f1']
 # train_f1 = []
 # valid_f1 = []
 # for metric in metrics:
@@ -74,11 +79,6 @@ plt.clf()
 #     for line in lines:
 #       train_metric.append(float(line))
 
-#   model_name = 'AlexNet2D_Pretrained'
-#   # model_name = 'AlexNet2D_SE_Pretrained'
-#   # model_name = 'AlexNet2D_SE_Topology'
-#   # model_name = 'AlexNet2D_Topology'
-
 #   epochs = range(len(train_metric))
 
 #   plt.xlabel('epochs')
@@ -86,6 +86,7 @@ plt.clf()
 #   plt.plot(epochs, train_metric, label = f"train {metric_name}")
 #   plt.plot(epochs, valid_metric, label = f"valid {metric_name}")
 #   plt.legend(loc='upper left')
+#   plt.title(f'{model_name} {metric_name}')
 #   plt.savefig(f'./{model_name}_results/{model_name}_{len(epochs)}_{metric_name}.png')
 #   plt.clf()
 

@@ -73,7 +73,7 @@ def reportMetrics(data, filename, save=False):
     print('Confusion Matrix')
     print(getConfusion(data))
     if save:
-        with open(f"{filename}", "w") as outfile:
+        with open(f"{filename}", "a") as outfile:
             json.dump(data, outfile)
 
 

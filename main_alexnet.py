@@ -83,12 +83,12 @@ def main(options):
     random.seed(SEED)
 
     
-    model_name = 'AlexNet2D_Pretrained'
+    # model_name = 'AlexNet2D_Pretrained'
     # model_name = 'AlexNet2D_SE_Pretrained'
     # model_name = 'AlexNet2D_SE_Topology'
-    # model_name = 'AlexNet2D_Topology'
+    model_name = 'AlexNet2D_Topology'
 
-    random_split(SEED, 'subjects.txt', TRAINING_PATH, VALIDATION_PATH, TESTING_PATH)
+    random_split(SEED, 336, 84, 83, 'subjects.txt', TRAINING_PATH, VALIDATION_PATH, TESTING_PATH)
 
     trg_size = (224, 224)
 
@@ -202,7 +202,7 @@ def main(options):
     print('best_train')
     reportMetrics(best_data_train, f'./{model_name}_results/{model_name}_train_data.txt', True)
     print('best_valid')
-    reportMetrics(best_data_valid, f'./{model_name}_results/{model_name}_valid_data.tdt', True)
+    reportMetrics(best_data_valid, f'./{model_name}_results/{model_name}_valid_data.txt', True)
     print('test')
     reportMetrics(data_test, f'./{model_name}_results/{model_name}_test_data.txt', True)
     train_loss_f.close()

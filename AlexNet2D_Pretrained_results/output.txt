@@ -1,440 +1,440 @@
-2023-04-23 06:11:52 INFO: At 0-th epoch.
-2023-04-23 06:12:04 INFO: Average training loss is 29.28668 at the end of epoch 0
-2023-04-23 06:12:04 INFO: Average training accuracy is 0.47443 at the end of epoch 0
-2023-04-23 06:12:08 INFO: Average validation accuracy is 0.50000 at the end of epoch 0
-2023-04-23 06:12:08 INFO: At 1-th epoch.
-2023-04-23 06:12:19 INFO: Average training loss is 10.64590 at the end of epoch 1
-2023-04-23 06:12:19 INFO: Average training accuracy is 0.52557 at the end of epoch 1
-2023-04-23 06:12:24 INFO: Average validation accuracy is 0.51562 at the end of epoch 1
-2023-04-23 06:12:24 INFO: At 2-th epoch.
-2023-04-23 06:12:35 INFO: Average training loss is 8.78900 at the end of epoch 2
-2023-04-23 06:12:35 INFO: Average training accuracy is 0.54261 at the end of epoch 2
-2023-04-23 06:12:40 INFO: Average validation accuracy is 0.60938 at the end of epoch 2
-2023-04-23 06:12:40 INFO: At 3-th epoch.
-2023-04-23 06:12:51 INFO: Average training loss is 6.20214 at the end of epoch 3
-2023-04-23 06:12:51 INFO: Average training accuracy is 0.53977 at the end of epoch 3
-2023-04-23 06:12:56 INFO: Average validation accuracy is 0.71875 at the end of epoch 3
-2023-04-23 06:12:56 INFO: At 4-th epoch.
-2023-04-23 06:13:08 INFO: Average training loss is 4.39107 at the end of epoch 4
-2023-04-23 06:13:08 INFO: Average training accuracy is 0.57955 at the end of epoch 4
-2023-04-23 06:13:12 INFO: Average validation accuracy is 0.60938 at the end of epoch 4
-2023-04-23 06:13:12 INFO: At 5-th epoch.
-2023-04-23 06:13:23 INFO: Average training loss is 2.83828 at the end of epoch 5
-2023-04-23 06:13:23 INFO: Average training accuracy is 0.61648 at the end of epoch 5
-2023-04-23 06:13:28 INFO: Average validation accuracy is 0.64062 at the end of epoch 5
-2023-04-23 06:13:28 INFO: At 6-th epoch.
-2023-04-23 06:13:39 INFO: Average training loss is 2.30319 at the end of epoch 6
-2023-04-23 06:13:39 INFO: Average training accuracy is 0.60795 at the end of epoch 6
-2023-04-23 06:13:43 INFO: Average validation accuracy is 0.54688 at the end of epoch 6
-2023-04-23 06:13:43 INFO: At 7-th epoch.
-2023-04-23 06:13:55 INFO: Average training loss is 2.25449 at the end of epoch 7
-2023-04-23 06:13:55 INFO: Average training accuracy is 0.63636 at the end of epoch 7
-2023-04-23 06:13:59 INFO: Average validation accuracy is 0.59375 at the end of epoch 7
-2023-04-23 06:13:59 INFO: At 8-th epoch.
-2023-04-23 06:14:11 INFO: Average training loss is 1.81082 at the end of epoch 8
-2023-04-23 06:14:11 INFO: Average training accuracy is 0.59375 at the end of epoch 8
-2023-04-23 06:14:15 INFO: Average validation accuracy is 0.73438 at the end of epoch 8
-2023-04-23 06:14:16 INFO: At 9-th epoch.
-2023-04-23 06:14:27 INFO: Average training loss is 1.33401 at the end of epoch 9
-2023-04-23 06:14:27 INFO: Average training accuracy is 0.63636 at the end of epoch 9
-2023-04-23 06:14:31 INFO: Average validation accuracy is 0.67188 at the end of epoch 9
-2023-04-23 06:14:31 INFO: At 10-th epoch.
-2023-04-23 06:14:43 INFO: Average training loss is 1.25773 at the end of epoch 10
-2023-04-23 06:14:43 INFO: Average training accuracy is 0.65057 at the end of epoch 10
-2023-04-23 06:14:47 INFO: Average validation accuracy is 0.62500 at the end of epoch 10
-2023-04-23 06:14:47 INFO: At 11-th epoch.
-2023-04-23 06:14:58 INFO: Average training loss is 1.02412 at the end of epoch 11
-2023-04-23 06:14:58 INFO: Average training accuracy is 0.62784 at the end of epoch 11
-2023-04-23 06:15:03 INFO: Average validation accuracy is 0.70312 at the end of epoch 11
-2023-04-23 06:15:03 INFO: At 12-th epoch.
-2023-04-23 06:15:14 INFO: Average training loss is 0.98450 at the end of epoch 12
-2023-04-23 06:15:14 INFO: Average training accuracy is 0.65341 at the end of epoch 12
-2023-04-23 06:15:18 INFO: Average validation accuracy is 0.56250 at the end of epoch 12
-2023-04-23 06:15:18 INFO: At 13-th epoch.
-2023-04-23 06:15:29 INFO: Average training loss is 0.98441 at the end of epoch 13
-2023-04-23 06:15:29 INFO: Average training accuracy is 0.63920 at the end of epoch 13
-2023-04-23 06:15:34 INFO: Average validation accuracy is 0.73438 at the end of epoch 13
-2023-04-23 06:15:34 INFO: At 14-th epoch.
-2023-04-23 06:15:45 INFO: Average training loss is 0.91265 at the end of epoch 14
-2023-04-23 06:15:45 INFO: Average training accuracy is 0.64773 at the end of epoch 14
-2023-04-23 06:15:50 INFO: Average validation accuracy is 0.70312 at the end of epoch 14
-2023-04-23 06:15:50 INFO: At 15-th epoch.
-2023-04-23 06:16:01 INFO: Average training loss is 0.91052 at the end of epoch 15
-2023-04-23 06:16:01 INFO: Average training accuracy is 0.59375 at the end of epoch 15
-2023-04-23 06:16:05 INFO: Average validation accuracy is 0.71875 at the end of epoch 15
-2023-04-23 06:16:05 INFO: At 16-th epoch.
-2023-04-23 06:16:17 INFO: Average training loss is 0.86177 at the end of epoch 16
-2023-04-23 06:16:17 INFO: Average training accuracy is 0.66761 at the end of epoch 16
-2023-04-23 06:16:21 INFO: Average validation accuracy is 0.71875 at the end of epoch 16
-2023-04-23 06:16:21 INFO: At 17-th epoch.
-2023-04-23 06:16:33 INFO: Average training loss is 0.85030 at the end of epoch 17
-2023-04-23 06:16:33 INFO: Average training accuracy is 0.64205 at the end of epoch 17
-2023-04-23 06:16:37 INFO: Average validation accuracy is 0.73438 at the end of epoch 17
-2023-04-23 06:16:37 INFO: At 18-th epoch.
-2023-04-23 06:16:48 INFO: Average training loss is 0.77959 at the end of epoch 18
-2023-04-23 06:16:48 INFO: Average training accuracy is 0.68182 at the end of epoch 18
-2023-04-23 06:16:53 INFO: Average validation accuracy is 0.70312 at the end of epoch 18
-2023-04-23 06:16:53 INFO: At 19-th epoch.
-2023-04-23 06:17:04 INFO: Average training loss is 0.76615 at the end of epoch 19
-2023-04-23 06:17:04 INFO: Average training accuracy is 0.67045 at the end of epoch 19
-2023-04-23 06:17:09 INFO: Average validation accuracy is 0.70312 at the end of epoch 19
-2023-04-23 06:17:09 INFO: At 20-th epoch.
-2023-04-23 06:17:20 INFO: Average training loss is 0.89070 at the end of epoch 20
-2023-04-23 06:17:20 INFO: Average training accuracy is 0.63352 at the end of epoch 20
-2023-04-23 06:17:25 INFO: Average validation accuracy is 0.70312 at the end of epoch 20
-2023-04-23 06:17:25 INFO: At 21-th epoch.
-2023-04-23 06:17:36 INFO: Average training loss is 0.70237 at the end of epoch 21
-2023-04-23 06:17:36 INFO: Average training accuracy is 0.67330 at the end of epoch 21
-2023-04-23 06:17:40 INFO: Average validation accuracy is 0.70312 at the end of epoch 21
-2023-04-23 06:17:40 INFO: At 22-th epoch.
-2023-04-23 06:17:52 INFO: Average training loss is 0.77670 at the end of epoch 22
-2023-04-23 06:17:52 INFO: Average training accuracy is 0.65341 at the end of epoch 22
-2023-04-23 06:17:56 INFO: Average validation accuracy is 0.68750 at the end of epoch 22
-2023-04-23 06:17:56 INFO: At 23-th epoch.
-2023-04-23 06:18:07 INFO: Average training loss is 0.69819 at the end of epoch 23
-2023-04-23 06:18:07 INFO: Average training accuracy is 0.67330 at the end of epoch 23
-2023-04-23 06:18:12 INFO: Average validation accuracy is 0.68750 at the end of epoch 23
-2023-04-23 06:18:12 INFO: At 24-th epoch.
-2023-04-23 06:18:23 INFO: Average training loss is 0.70808 at the end of epoch 24
-2023-04-23 06:18:23 INFO: Average training accuracy is 0.64773 at the end of epoch 24
-2023-04-23 06:18:28 INFO: Average validation accuracy is 0.68750 at the end of epoch 24
-2023-04-23 06:18:28 INFO: At 25-th epoch.
-2023-04-23 06:18:39 INFO: Average training loss is 0.69977 at the end of epoch 25
-2023-04-23 06:18:39 INFO: Average training accuracy is 0.71023 at the end of epoch 25
-2023-04-23 06:18:44 INFO: Average validation accuracy is 0.65625 at the end of epoch 25
-2023-04-23 06:18:44 INFO: At 26-th epoch.
-2023-04-23 06:18:55 INFO: Average training loss is 0.64989 at the end of epoch 26
-2023-04-23 06:18:55 INFO: Average training accuracy is 0.68750 at the end of epoch 26
-2023-04-23 06:18:59 INFO: Average validation accuracy is 0.65625 at the end of epoch 26
-2023-04-23 06:18:59 INFO: At 27-th epoch.
-2023-04-23 06:19:11 INFO: Average training loss is 0.67760 at the end of epoch 27
-2023-04-23 06:19:11 INFO: Average training accuracy is 0.68750 at the end of epoch 27
-2023-04-23 06:19:15 INFO: Average validation accuracy is 0.64062 at the end of epoch 27
-2023-04-23 06:19:15 INFO: At 28-th epoch.
-2023-04-23 06:19:26 INFO: Average training loss is 0.71615 at the end of epoch 28
-2023-04-23 06:19:26 INFO: Average training accuracy is 0.68182 at the end of epoch 28
-2023-04-23 06:19:31 INFO: Average validation accuracy is 0.62500 at the end of epoch 28
-2023-04-23 06:19:31 INFO: At 29-th epoch.
-2023-04-23 06:19:42 INFO: Average training loss is 0.65178 at the end of epoch 29
-2023-04-23 06:19:42 INFO: Average training accuracy is 0.69034 at the end of epoch 29
-2023-04-23 06:19:47 INFO: Average validation accuracy is 0.62500 at the end of epoch 29
-2023-04-23 06:19:47 INFO: At 30-th epoch.
-2023-04-23 06:19:58 INFO: Average training loss is 0.61206 at the end of epoch 30
-2023-04-23 06:19:58 INFO: Average training accuracy is 0.71307 at the end of epoch 30
-2023-04-23 06:20:02 INFO: Average validation accuracy is 0.71875 at the end of epoch 30
-2023-04-23 06:20:02 INFO: At 31-th epoch.
-2023-04-23 06:20:13 INFO: Average training loss is 0.63683 at the end of epoch 31
-2023-04-23 06:20:13 INFO: Average training accuracy is 0.71875 at the end of epoch 31
-2023-04-23 06:20:18 INFO: Average validation accuracy is 0.73438 at the end of epoch 31
-2023-04-23 06:20:18 INFO: At 32-th epoch.
-2023-04-23 06:20:29 INFO: Average training loss is 0.62486 at the end of epoch 32
-2023-04-23 06:20:29 INFO: Average training accuracy is 0.72443 at the end of epoch 32
-2023-04-23 06:20:33 INFO: Average validation accuracy is 0.73438 at the end of epoch 32
-2023-04-23 06:20:33 INFO: At 33-th epoch.
-2023-04-23 06:20:45 INFO: Average training loss is 0.67581 at the end of epoch 33
-2023-04-23 06:20:45 INFO: Average training accuracy is 0.71023 at the end of epoch 33
-2023-04-23 06:20:49 INFO: Average validation accuracy is 0.75000 at the end of epoch 33
-2023-04-23 06:20:49 INFO: At 34-th epoch.
-2023-04-23 06:21:01 INFO: Average training loss is 0.62200 at the end of epoch 34
-2023-04-23 06:21:01 INFO: Average training accuracy is 0.71307 at the end of epoch 34
-2023-04-23 06:21:05 INFO: Average validation accuracy is 0.76562 at the end of epoch 34
-2023-04-23 06:21:05 INFO: At 35-th epoch.
-2023-04-23 06:21:16 INFO: Average training loss is 0.61472 at the end of epoch 35
-2023-04-23 06:21:16 INFO: Average training accuracy is 0.72159 at the end of epoch 35
-2023-04-23 06:21:21 INFO: Average validation accuracy is 0.75000 at the end of epoch 35
-2023-04-23 06:21:21 INFO: At 36-th epoch.
-2023-04-23 06:21:32 INFO: Average training loss is 0.61661 at the end of epoch 36
-2023-04-23 06:21:32 INFO: Average training accuracy is 0.71875 at the end of epoch 36
-2023-04-23 06:21:37 INFO: Average validation accuracy is 0.71875 at the end of epoch 36
-2023-04-23 06:21:37 INFO: At 37-th epoch.
-2023-04-23 06:21:48 INFO: Average training loss is 0.66351 at the end of epoch 37
-2023-04-23 06:21:48 INFO: Average training accuracy is 0.71591 at the end of epoch 37
-2023-04-23 06:21:53 INFO: Average validation accuracy is 0.75000 at the end of epoch 37
-2023-04-23 06:21:53 INFO: At 38-th epoch.
-2023-04-23 06:22:04 INFO: Average training loss is 0.62912 at the end of epoch 38
-2023-04-23 06:22:04 INFO: Average training accuracy is 0.75000 at the end of epoch 38
-2023-04-23 06:22:08 INFO: Average validation accuracy is 0.73438 at the end of epoch 38
-2023-04-23 06:22:08 INFO: At 39-th epoch.
-2023-04-23 06:22:20 INFO: Average training loss is 0.59456 at the end of epoch 39
-2023-04-23 06:22:20 INFO: Average training accuracy is 0.75000 at the end of epoch 39
-2023-04-23 06:22:24 INFO: Average validation accuracy is 0.73438 at the end of epoch 39
-2023-04-23 06:22:24 INFO: At 40-th epoch.
-2023-04-23 06:22:35 INFO: Average training loss is 0.55900 at the end of epoch 40
-2023-04-23 06:22:35 INFO: Average training accuracy is 0.76705 at the end of epoch 40
-2023-04-23 06:22:40 INFO: Average validation accuracy is 0.70312 at the end of epoch 40
-2023-04-23 06:22:40 INFO: At 41-th epoch.
-2023-04-23 06:22:51 INFO: Average training loss is 0.53156 at the end of epoch 41
-2023-04-23 06:22:51 INFO: Average training accuracy is 0.79545 at the end of epoch 41
-2023-04-23 06:22:56 INFO: Average validation accuracy is 0.76562 at the end of epoch 41
-2023-04-23 06:22:56 INFO: At 42-th epoch.
-2023-04-23 06:23:08 INFO: Average training loss is 0.54620 at the end of epoch 42
-2023-04-23 06:23:08 INFO: Average training accuracy is 0.76705 at the end of epoch 42
-2023-04-23 06:23:12 INFO: Average validation accuracy is 0.73438 at the end of epoch 42
-2023-04-23 06:23:12 INFO: At 43-th epoch.
-2023-04-23 06:23:24 INFO: Average training loss is 0.50307 at the end of epoch 43
-2023-04-23 06:23:24 INFO: Average training accuracy is 0.80966 at the end of epoch 43
-2023-04-23 06:23:29 INFO: Average validation accuracy is 0.75000 at the end of epoch 43
-2023-04-23 06:23:29 INFO: At 44-th epoch.
-2023-04-23 06:23:41 INFO: Average training loss is 0.54481 at the end of epoch 44
-2023-04-23 06:23:41 INFO: Average training accuracy is 0.78977 at the end of epoch 44
-2023-04-23 06:23:46 INFO: Average validation accuracy is 0.76562 at the end of epoch 44
-2023-04-23 06:23:46 INFO: At 45-th epoch.
-2023-04-23 06:23:57 INFO: Average training loss is 0.52959 at the end of epoch 45
-2023-04-23 06:23:57 INFO: Average training accuracy is 0.79261 at the end of epoch 45
-2023-04-23 06:24:02 INFO: Average validation accuracy is 0.71875 at the end of epoch 45
-2023-04-23 06:24:02 INFO: At 46-th epoch.
-2023-04-23 06:24:13 INFO: Average training loss is 0.58820 at the end of epoch 46
-2023-04-23 06:24:13 INFO: Average training accuracy is 0.77273 at the end of epoch 46
-2023-04-23 06:24:18 INFO: Average validation accuracy is 0.75000 at the end of epoch 46
-2023-04-23 06:24:18 INFO: At 47-th epoch.
-2023-04-23 06:24:30 INFO: Average training loss is 0.52854 at the end of epoch 47
-2023-04-23 06:24:30 INFO: Average training accuracy is 0.82386 at the end of epoch 47
-2023-04-23 06:24:34 INFO: Average validation accuracy is 0.78125 at the end of epoch 47
-2023-04-23 06:24:34 INFO: At 48-th epoch.
-2023-04-23 06:24:46 INFO: Average training loss is 0.47710 at the end of epoch 48
-2023-04-23 06:24:46 INFO: Average training accuracy is 0.82670 at the end of epoch 48
-2023-04-23 06:24:51 INFO: Average validation accuracy is 0.76562 at the end of epoch 48
-2023-04-23 06:24:51 INFO: At 49-th epoch.
-2023-04-23 06:25:02 INFO: Average training loss is 0.48168 at the end of epoch 49
-2023-04-23 06:25:02 INFO: Average training accuracy is 0.84943 at the end of epoch 49
-2023-04-23 06:25:07 INFO: Average validation accuracy is 0.75000 at the end of epoch 49
-2023-04-23 06:25:07 INFO: At 50-th epoch.
-2023-04-23 06:25:19 INFO: Average training loss is 0.49661 at the end of epoch 50
-2023-04-23 06:25:19 INFO: Average training accuracy is 0.81250 at the end of epoch 50
-2023-04-23 06:25:25 INFO: Average validation accuracy is 0.75000 at the end of epoch 50
-2023-04-23 06:25:25 INFO: At 51-th epoch.
-2023-04-23 06:25:37 INFO: Average training loss is 0.46789 at the end of epoch 51
-2023-04-23 06:25:37 INFO: Average training accuracy is 0.86080 at the end of epoch 51
-2023-04-23 06:25:42 INFO: Average validation accuracy is 0.76562 at the end of epoch 51
-2023-04-23 06:25:42 INFO: At 52-th epoch.
-2023-04-23 06:25:53 INFO: Average training loss is 0.46861 at the end of epoch 52
-2023-04-23 06:25:53 INFO: Average training accuracy is 0.85795 at the end of epoch 52
-2023-04-23 06:25:58 INFO: Average validation accuracy is 0.75000 at the end of epoch 52
-2023-04-23 06:25:58 INFO: At 53-th epoch.
-2023-04-23 06:26:09 INFO: Average training loss is 0.41528 at the end of epoch 53
-2023-04-23 06:26:09 INFO: Average training accuracy is 0.84091 at the end of epoch 53
-2023-04-23 06:26:14 INFO: Average validation accuracy is 0.71875 at the end of epoch 53
-2023-04-23 06:26:14 INFO: At 54-th epoch.
-2023-04-23 06:26:25 INFO: Average training loss is 0.43508 at the end of epoch 54
-2023-04-23 06:26:25 INFO: Average training accuracy is 0.86080 at the end of epoch 54
-2023-04-23 06:26:30 INFO: Average validation accuracy is 0.73438 at the end of epoch 54
-2023-04-23 06:26:30 INFO: At 55-th epoch.
-2023-04-23 06:26:42 INFO: Average training loss is 0.39272 at the end of epoch 55
-2023-04-23 06:26:42 INFO: Average training accuracy is 0.87784 at the end of epoch 55
-2023-04-23 06:26:47 INFO: Average validation accuracy is 0.70312 at the end of epoch 55
-2023-04-23 06:26:47 INFO: At 56-th epoch.
-2023-04-23 06:26:58 INFO: Average training loss is 0.37005 at the end of epoch 56
-2023-04-23 06:26:58 INFO: Average training accuracy is 0.88352 at the end of epoch 56
-2023-04-23 06:27:03 INFO: Average validation accuracy is 0.71875 at the end of epoch 56
-2023-04-23 06:27:03 INFO: At 57-th epoch.
-2023-04-23 06:27:14 INFO: Average training loss is 0.34063 at the end of epoch 57
-2023-04-23 06:27:14 INFO: Average training accuracy is 0.90341 at the end of epoch 57
-2023-04-23 06:27:19 INFO: Average validation accuracy is 0.73438 at the end of epoch 57
-2023-04-23 06:27:19 INFO: At 58-th epoch.
-2023-04-23 06:27:30 INFO: Average training loss is 0.34725 at the end of epoch 58
-2023-04-23 06:27:30 INFO: Average training accuracy is 0.88636 at the end of epoch 58
-2023-04-23 06:27:35 INFO: Average validation accuracy is 0.67188 at the end of epoch 58
-2023-04-23 06:27:35 INFO: At 59-th epoch.
-2023-04-23 06:27:46 INFO: Average training loss is 0.32254 at the end of epoch 59
-2023-04-23 06:27:46 INFO: Average training accuracy is 0.91477 at the end of epoch 59
-2023-04-23 06:27:51 INFO: Average validation accuracy is 0.70312 at the end of epoch 59
-2023-04-23 06:27:51 INFO: At 60-th epoch.
-2023-04-23 06:28:02 INFO: Average training loss is 0.34404 at the end of epoch 60
-2023-04-23 06:28:02 INFO: Average training accuracy is 0.91193 at the end of epoch 60
-2023-04-23 06:28:06 INFO: Average validation accuracy is 0.71875 at the end of epoch 60
-2023-04-23 06:28:06 INFO: At 61-th epoch.
-2023-04-23 06:28:17 INFO: Average training loss is 0.30443 at the end of epoch 61
-2023-04-23 06:28:17 INFO: Average training accuracy is 0.90625 at the end of epoch 61
-2023-04-23 06:28:22 INFO: Average validation accuracy is 0.68750 at the end of epoch 61
-2023-04-23 06:28:22 INFO: At 62-th epoch.
-2023-04-23 06:28:33 INFO: Average training loss is 0.32043 at the end of epoch 62
-2023-04-23 06:28:33 INFO: Average training accuracy is 0.92045 at the end of epoch 62
-2023-04-23 06:28:38 INFO: Average validation accuracy is 0.71875 at the end of epoch 62
-2023-04-23 06:28:38 INFO: At 63-th epoch.
-2023-04-23 06:28:49 INFO: Average training loss is 0.28887 at the end of epoch 63
-2023-04-23 06:28:49 INFO: Average training accuracy is 0.95455 at the end of epoch 63
-2023-04-23 06:28:54 INFO: Average validation accuracy is 0.73438 at the end of epoch 63
-2023-04-23 06:28:54 INFO: At 64-th epoch.
-2023-04-23 06:29:05 INFO: Average training loss is 0.28285 at the end of epoch 64
-2023-04-23 06:29:05 INFO: Average training accuracy is 0.93466 at the end of epoch 64
-2023-04-23 06:29:10 INFO: Average validation accuracy is 0.65625 at the end of epoch 64
-2023-04-23 06:29:10 INFO: At 65-th epoch.
-2023-04-23 06:29:21 INFO: Average training loss is 0.30854 at the end of epoch 65
-2023-04-23 06:29:21 INFO: Average training accuracy is 0.93182 at the end of epoch 65
-2023-04-23 06:29:26 INFO: Average validation accuracy is 0.68750 at the end of epoch 65
-2023-04-23 06:29:26 INFO: At 66-th epoch.
-2023-04-23 06:29:38 INFO: Average training loss is 0.29398 at the end of epoch 66
-2023-04-23 06:29:38 INFO: Average training accuracy is 0.93466 at the end of epoch 66
-2023-04-23 06:29:42 INFO: Average validation accuracy is 0.71875 at the end of epoch 66
-2023-04-23 06:29:42 INFO: At 67-th epoch.
-2023-04-23 06:29:54 INFO: Average training loss is 0.21725 at the end of epoch 67
-2023-04-23 06:29:54 INFO: Average training accuracy is 0.94318 at the end of epoch 67
-2023-04-23 06:29:58 INFO: Average validation accuracy is 0.67188 at the end of epoch 67
-2023-04-23 06:29:58 INFO: At 68-th epoch.
-2023-04-23 06:30:10 INFO: Average training loss is 0.23437 at the end of epoch 68
-2023-04-23 06:30:10 INFO: Average training accuracy is 0.93750 at the end of epoch 68
-2023-04-23 06:30:15 INFO: Average validation accuracy is 0.65625 at the end of epoch 68
-2023-04-23 06:30:15 INFO: At 69-th epoch.
-2023-04-23 06:30:26 INFO: Average training loss is 0.19473 at the end of epoch 69
-2023-04-23 06:30:26 INFO: Average training accuracy is 0.96023 at the end of epoch 69
-2023-04-23 06:30:31 INFO: Average validation accuracy is 0.67188 at the end of epoch 69
-2023-04-23 06:30:31 INFO: At 70-th epoch.
-2023-04-23 06:30:42 INFO: Average training loss is 0.21744 at the end of epoch 70
-2023-04-23 06:30:42 INFO: Average training accuracy is 0.96591 at the end of epoch 70
-2023-04-23 06:30:46 INFO: Average validation accuracy is 0.65625 at the end of epoch 70
-2023-04-23 06:30:46 INFO: At 71-th epoch.
-2023-04-23 06:30:58 INFO: Average training loss is 0.16683 at the end of epoch 71
-2023-04-23 06:30:58 INFO: Average training accuracy is 0.98011 at the end of epoch 71
-2023-04-23 06:31:02 INFO: Average validation accuracy is 0.67188 at the end of epoch 71
-2023-04-23 06:31:02 INFO: At 72-th epoch.
-2023-04-23 06:31:14 INFO: Average training loss is 0.17466 at the end of epoch 72
-2023-04-23 06:31:14 INFO: Average training accuracy is 0.97159 at the end of epoch 72
-2023-04-23 06:31:18 INFO: Average validation accuracy is 0.67188 at the end of epoch 72
-2023-04-23 06:31:18 INFO: At 73-th epoch.
-2023-04-23 06:31:30 INFO: Average training loss is 0.19587 at the end of epoch 73
-2023-04-23 06:31:30 INFO: Average training accuracy is 0.96023 at the end of epoch 73
-2023-04-23 06:31:35 INFO: Average validation accuracy is 0.71875 at the end of epoch 73
-2023-04-23 06:31:35 INFO: At 74-th epoch.
-2023-04-23 06:31:47 INFO: Average training loss is 0.13803 at the end of epoch 74
-2023-04-23 06:31:47 INFO: Average training accuracy is 0.98011 at the end of epoch 74
-2023-04-23 06:31:51 INFO: Average validation accuracy is 0.70312 at the end of epoch 74
-2023-04-23 06:31:51 INFO: At 75-th epoch.
-2023-04-23 06:32:03 INFO: Average training loss is 0.16817 at the end of epoch 75
-2023-04-23 06:32:03 INFO: Average training accuracy is 0.98295 at the end of epoch 75
-2023-04-23 06:32:08 INFO: Average validation accuracy is 0.73438 at the end of epoch 75
-2023-04-23 06:32:08 INFO: At 76-th epoch.
-2023-04-23 06:32:19 INFO: Average training loss is 0.18727 at the end of epoch 76
-2023-04-23 06:32:19 INFO: Average training accuracy is 0.97727 at the end of epoch 76
-2023-04-23 06:32:23 INFO: Average validation accuracy is 0.71875 at the end of epoch 76
-2023-04-23 06:32:23 INFO: At 77-th epoch.
-2023-04-23 06:32:35 INFO: Average training loss is 0.11571 at the end of epoch 77
-2023-04-23 06:32:35 INFO: Average training accuracy is 0.99148 at the end of epoch 77
-2023-04-23 06:32:39 INFO: Average validation accuracy is 0.73438 at the end of epoch 77
-2023-04-23 06:32:39 INFO: At 78-th epoch.
-2023-04-23 06:32:50 INFO: Average training loss is 0.15944 at the end of epoch 78
-2023-04-23 06:32:50 INFO: Average training accuracy is 0.98011 at the end of epoch 78
-2023-04-23 06:32:56 INFO: Average validation accuracy is 0.70312 at the end of epoch 78
-2023-04-23 06:32:56 INFO: At 79-th epoch.
-2023-04-23 06:33:07 INFO: Average training loss is 0.15151 at the end of epoch 79
-2023-04-23 06:33:07 INFO: Average training accuracy is 0.98864 at the end of epoch 79
-2023-04-23 06:33:12 INFO: Average validation accuracy is 0.68750 at the end of epoch 79
-2023-04-23 06:33:12 INFO: At 80-th epoch.
-2023-04-23 06:33:23 INFO: Average training loss is 0.16909 at the end of epoch 80
-2023-04-23 06:33:23 INFO: Average training accuracy is 0.98864 at the end of epoch 80
-2023-04-23 06:33:28 INFO: Average validation accuracy is 0.68750 at the end of epoch 80
-2023-04-23 06:33:28 INFO: At 81-th epoch.
-2023-04-23 06:33:39 INFO: Average training loss is 0.12988 at the end of epoch 81
-2023-04-23 06:33:39 INFO: Average training accuracy is 0.98580 at the end of epoch 81
-2023-04-23 06:33:43 INFO: Average validation accuracy is 0.75000 at the end of epoch 81
-2023-04-23 06:33:43 INFO: At 82-th epoch.
-2023-04-23 06:33:55 INFO: Average training loss is 0.09137 at the end of epoch 82
-2023-04-23 06:33:55 INFO: Average training accuracy is 0.99148 at the end of epoch 82
-2023-04-23 06:34:00 INFO: Average validation accuracy is 0.70312 at the end of epoch 82
-2023-04-23 06:34:00 INFO: At 83-th epoch.
-2023-04-23 06:34:11 INFO: Average training loss is 0.09753 at the end of epoch 83
-2023-04-23 06:34:11 INFO: Average training accuracy is 0.98864 at the end of epoch 83
-2023-04-23 06:34:16 INFO: Average validation accuracy is 0.71875 at the end of epoch 83
-2023-04-23 06:34:16 INFO: At 84-th epoch.
-2023-04-23 06:34:27 INFO: Average training loss is 0.08293 at the end of epoch 84
-2023-04-23 06:34:27 INFO: Average training accuracy is 0.99148 at the end of epoch 84
-2023-04-23 06:34:31 INFO: Average validation accuracy is 0.65625 at the end of epoch 84
-2023-04-23 06:34:31 INFO: At 85-th epoch.
-2023-04-23 06:34:43 INFO: Average training loss is 0.07694 at the end of epoch 85
-2023-04-23 06:34:43 INFO: Average training accuracy is 0.99148 at the end of epoch 85
-2023-04-23 06:34:47 INFO: Average validation accuracy is 0.68750 at the end of epoch 85
-2023-04-23 06:34:47 INFO: At 86-th epoch.
-2023-04-23 06:34:58 INFO: Average training loss is 0.12627 at the end of epoch 86
-2023-04-23 06:34:58 INFO: Average training accuracy is 0.99432 at the end of epoch 86
-2023-04-23 06:35:03 INFO: Average validation accuracy is 0.65625 at the end of epoch 86
-2023-04-23 06:35:03 INFO: At 87-th epoch.
-2023-04-23 06:35:14 INFO: Average training loss is 0.16350 at the end of epoch 87
-2023-04-23 06:35:14 INFO: Average training accuracy is 0.98580 at the end of epoch 87
-2023-04-23 06:35:19 INFO: Average validation accuracy is 0.70312 at the end of epoch 87
-2023-04-23 06:35:19 INFO: At 88-th epoch.
-2023-04-23 06:35:30 INFO: Average training loss is 0.14137 at the end of epoch 88
-2023-04-23 06:35:30 INFO: Average training accuracy is 0.98580 at the end of epoch 88
-2023-04-23 06:35:34 INFO: Average validation accuracy is 0.67188 at the end of epoch 88
-2023-04-23 06:35:34 INFO: At 89-th epoch.
-2023-04-23 06:35:46 INFO: Average training loss is 0.12897 at the end of epoch 89
-2023-04-23 06:35:46 INFO: Average training accuracy is 0.99432 at the end of epoch 89
-2023-04-23 06:35:50 INFO: Average validation accuracy is 0.70312 at the end of epoch 89
-2023-04-23 06:35:50 INFO: At 90-th epoch.
-2023-04-23 06:36:02 INFO: Average training loss is 0.13832 at the end of epoch 90
-2023-04-23 06:36:02 INFO: Average training accuracy is 0.99148 at the end of epoch 90
-2023-04-23 06:36:06 INFO: Average validation accuracy is 0.71875 at the end of epoch 90
-2023-04-23 06:36:06 INFO: At 91-th epoch.
-2023-04-23 06:36:17 INFO: Average training loss is 0.11890 at the end of epoch 91
-2023-04-23 06:36:17 INFO: Average training accuracy is 0.99716 at the end of epoch 91
-2023-04-23 06:36:22 INFO: Average validation accuracy is 0.73438 at the end of epoch 91
-2023-04-23 06:36:22 INFO: At 92-th epoch.
-2023-04-23 06:36:33 INFO: Average training loss is 0.11615 at the end of epoch 92
-2023-04-23 06:36:33 INFO: Average training accuracy is 0.99716 at the end of epoch 92
-2023-04-23 06:36:37 INFO: Average validation accuracy is 0.68750 at the end of epoch 92
-2023-04-23 06:36:37 INFO: At 93-th epoch.
-2023-04-23 06:36:49 INFO: Average training loss is 0.08950 at the end of epoch 93
-2023-04-23 06:36:49 INFO: Average training accuracy is 0.99716 at the end of epoch 93
-2023-04-23 06:36:53 INFO: Average validation accuracy is 0.71875 at the end of epoch 93
-2023-04-23 06:36:53 INFO: At 94-th epoch.
-2023-04-23 06:37:05 INFO: Average training loss is 0.10970 at the end of epoch 94
-2023-04-23 06:37:05 INFO: Average training accuracy is 0.99432 at the end of epoch 94
-2023-04-23 06:37:09 INFO: Average validation accuracy is 0.73438 at the end of epoch 94
-2023-04-23 06:37:09 INFO: At 95-th epoch.
-2023-04-23 06:37:20 INFO: Average training loss is 0.19776 at the end of epoch 95
-2023-04-23 06:37:20 INFO: Average training accuracy is 0.98864 at the end of epoch 95
-2023-04-23 06:37:25 INFO: Average validation accuracy is 0.65625 at the end of epoch 95
-2023-04-23 06:37:25 INFO: At 96-th epoch.
-2023-04-23 06:37:36 INFO: Average training loss is 0.12870 at the end of epoch 96
-2023-04-23 06:37:36 INFO: Average training accuracy is 0.98580 at the end of epoch 96
-2023-04-23 06:37:40 INFO: Average validation accuracy is 0.70312 at the end of epoch 96
-2023-04-23 06:37:40 INFO: At 97-th epoch.
-2023-04-23 06:37:52 INFO: Average training loss is 0.22392 at the end of epoch 97
-2023-04-23 06:37:52 INFO: Average training accuracy is 0.98295 at the end of epoch 97
-2023-04-23 06:37:56 INFO: Average validation accuracy is 0.68750 at the end of epoch 97
-2023-04-23 06:37:56 INFO: At 98-th epoch.
-2023-04-23 06:38:07 INFO: Average training loss is 0.15192 at the end of epoch 98
-2023-04-23 06:38:07 INFO: Average training accuracy is 0.98864 at the end of epoch 98
-2023-04-23 06:38:12 INFO: Average validation accuracy is 0.73438 at the end of epoch 98
-2023-04-23 06:38:12 INFO: At 99-th epoch.
-2023-04-23 06:38:24 INFO: Average training loss is 0.10953 at the end of epoch 99
-2023-04-23 06:38:24 INFO: Average training accuracy is 0.99716 at the end of epoch 99
-2023-04-23 06:38:28 INFO: Average validation accuracy is 0.68750 at the end of epoch 99
+2023-04-27 18:11:26 INFO: At 0-th epoch.
+2023-04-27 18:11:40 INFO: Average training loss is 19.46027 at the end of epoch 0
+2023-04-27 18:11:40 INFO: Average training accuracy is 0.56548 at the end of epoch 0
+2023-04-27 18:11:46 INFO: Average validation accuracy is 0.48810 at the end of epoch 0
+2023-04-27 18:11:46 INFO: At 1-th epoch.
+2023-04-27 18:11:56 INFO: Average training loss is 13.63384 at the end of epoch 1
+2023-04-27 18:11:56 INFO: Average training accuracy is 0.52976 at the end of epoch 1
+2023-04-27 18:12:01 INFO: Average validation accuracy is 0.60714 at the end of epoch 1
+2023-04-27 18:12:02 INFO: At 2-th epoch.
+2023-04-27 18:12:12 INFO: Average training loss is 7.85476 at the end of epoch 2
+2023-04-27 18:12:12 INFO: Average training accuracy is 0.58036 at the end of epoch 2
+2023-04-27 18:12:17 INFO: Average validation accuracy is 0.63095 at the end of epoch 2
+2023-04-27 18:12:17 INFO: At 3-th epoch.
+2023-04-27 18:12:26 INFO: Average training loss is 5.69718 at the end of epoch 3
+2023-04-27 18:12:26 INFO: Average training accuracy is 0.61310 at the end of epoch 3
+2023-04-27 18:12:31 INFO: Average validation accuracy is 0.66667 at the end of epoch 3
+2023-04-27 18:12:32 INFO: At 4-th epoch.
+2023-04-27 18:12:41 INFO: Average training loss is 4.26051 at the end of epoch 4
+2023-04-27 18:12:41 INFO: Average training accuracy is 0.57143 at the end of epoch 4
+2023-04-27 18:12:46 INFO: Average validation accuracy is 0.73810 at the end of epoch 4
+2023-04-27 18:12:47 INFO: At 5-th epoch.
+2023-04-27 18:12:56 INFO: Average training loss is 2.85821 at the end of epoch 5
+2023-04-27 18:12:56 INFO: Average training accuracy is 0.58631 at the end of epoch 5
+2023-04-27 18:13:01 INFO: Average validation accuracy is 0.66667 at the end of epoch 5
+2023-04-27 18:13:01 INFO: At 6-th epoch.
+2023-04-27 18:13:11 INFO: Average training loss is 2.69450 at the end of epoch 6
+2023-04-27 18:13:11 INFO: Average training accuracy is 0.63095 at the end of epoch 6
+2023-04-27 18:13:16 INFO: Average validation accuracy is 0.57143 at the end of epoch 6
+2023-04-27 18:13:16 INFO: At 7-th epoch.
+2023-04-27 18:13:25 INFO: Average training loss is 2.03557 at the end of epoch 7
+2023-04-27 18:13:25 INFO: Average training accuracy is 0.63690 at the end of epoch 7
+2023-04-27 18:13:31 INFO: Average validation accuracy is 0.52381 at the end of epoch 7
+2023-04-27 18:13:31 INFO: At 8-th epoch.
+2023-04-27 18:13:40 INFO: Average training loss is 1.92529 at the end of epoch 8
+2023-04-27 18:13:40 INFO: Average training accuracy is 0.69643 at the end of epoch 8
+2023-04-27 18:13:46 INFO: Average validation accuracy is 0.60714 at the end of epoch 8
+2023-04-27 18:13:46 INFO: At 9-th epoch.
+2023-04-27 18:13:55 INFO: Average training loss is 1.70845 at the end of epoch 9
+2023-04-27 18:13:55 INFO: Average training accuracy is 0.65179 at the end of epoch 9
+2023-04-27 18:14:00 INFO: Average validation accuracy is 0.51190 at the end of epoch 9
+2023-04-27 18:14:00 INFO: At 10-th epoch.
+2023-04-27 18:14:10 INFO: Average training loss is 1.20687 at the end of epoch 10
+2023-04-27 18:14:10 INFO: Average training accuracy is 0.68155 at the end of epoch 10
+2023-04-27 18:14:15 INFO: Average validation accuracy is 0.52381 at the end of epoch 10
+2023-04-27 18:14:15 INFO: At 11-th epoch.
+2023-04-27 18:14:25 INFO: Average training loss is 1.22551 at the end of epoch 11
+2023-04-27 18:14:25 INFO: Average training accuracy is 0.63988 at the end of epoch 11
+2023-04-27 18:14:30 INFO: Average validation accuracy is 0.51190 at the end of epoch 11
+2023-04-27 18:14:30 INFO: At 12-th epoch.
+2023-04-27 18:14:40 INFO: Average training loss is 1.00053 at the end of epoch 12
+2023-04-27 18:14:40 INFO: Average training accuracy is 0.63988 at the end of epoch 12
+2023-04-27 18:14:46 INFO: Average validation accuracy is 0.48810 at the end of epoch 12
+2023-04-27 18:14:46 INFO: At 13-th epoch.
+2023-04-27 18:14:56 INFO: Average training loss is 0.93300 at the end of epoch 13
+2023-04-27 18:14:56 INFO: Average training accuracy is 0.65179 at the end of epoch 13
+2023-04-27 18:15:01 INFO: Average validation accuracy is 0.63095 at the end of epoch 13
+2023-04-27 18:15:01 INFO: At 14-th epoch.
+2023-04-27 18:15:11 INFO: Average training loss is 0.96720 at the end of epoch 14
+2023-04-27 18:15:11 INFO: Average training accuracy is 0.65774 at the end of epoch 14
+2023-04-27 18:15:16 INFO: Average validation accuracy is 0.65476 at the end of epoch 14
+2023-04-27 18:15:16 INFO: At 15-th epoch.
+2023-04-27 18:15:26 INFO: Average training loss is 0.88568 at the end of epoch 15
+2023-04-27 18:15:26 INFO: Average training accuracy is 0.71131 at the end of epoch 15
+2023-04-27 18:15:31 INFO: Average validation accuracy is 0.53571 at the end of epoch 15
+2023-04-27 18:15:31 INFO: At 16-th epoch.
+2023-04-27 18:15:41 INFO: Average training loss is 0.87137 at the end of epoch 16
+2023-04-27 18:15:41 INFO: Average training accuracy is 0.66964 at the end of epoch 16
+2023-04-27 18:15:46 INFO: Average validation accuracy is 0.52381 at the end of epoch 16
+2023-04-27 18:15:46 INFO: At 17-th epoch.
+2023-04-27 18:15:55 INFO: Average training loss is 0.91916 at the end of epoch 17
+2023-04-27 18:15:55 INFO: Average training accuracy is 0.68155 at the end of epoch 17
+2023-04-27 18:16:00 INFO: Average validation accuracy is 0.53571 at the end of epoch 17
+2023-04-27 18:16:00 INFO: At 18-th epoch.
+2023-04-27 18:16:10 INFO: Average training loss is 0.75633 at the end of epoch 18
+2023-04-27 18:16:10 INFO: Average training accuracy is 0.68750 at the end of epoch 18
+2023-04-27 18:16:15 INFO: Average validation accuracy is 0.52381 at the end of epoch 18
+2023-04-27 18:16:15 INFO: At 19-th epoch.
+2023-04-27 18:16:24 INFO: Average training loss is 0.83558 at the end of epoch 19
+2023-04-27 18:16:24 INFO: Average training accuracy is 0.66964 at the end of epoch 19
+2023-04-27 18:16:29 INFO: Average validation accuracy is 0.53571 at the end of epoch 19
+2023-04-27 18:16:29 INFO: At 20-th epoch.
+2023-04-27 18:16:39 INFO: Average training loss is 0.71364 at the end of epoch 20
+2023-04-27 18:16:39 INFO: Average training accuracy is 0.68452 at the end of epoch 20
+2023-04-27 18:16:44 INFO: Average validation accuracy is 0.52381 at the end of epoch 20
+2023-04-27 18:16:44 INFO: At 21-th epoch.
+2023-04-27 18:16:53 INFO: Average training loss is 0.71474 at the end of epoch 21
+2023-04-27 18:16:53 INFO: Average training accuracy is 0.65476 at the end of epoch 21
+2023-04-27 18:16:58 INFO: Average validation accuracy is 0.54762 at the end of epoch 21
+2023-04-27 18:16:58 INFO: At 22-th epoch.
+2023-04-27 18:17:08 INFO: Average training loss is 0.76163 at the end of epoch 22
+2023-04-27 18:17:08 INFO: Average training accuracy is 0.67262 at the end of epoch 22
+2023-04-27 18:17:13 INFO: Average validation accuracy is 0.67857 at the end of epoch 22
+2023-04-27 18:17:13 INFO: At 23-th epoch.
+2023-04-27 18:17:23 INFO: Average training loss is 0.70362 at the end of epoch 23
+2023-04-27 18:17:23 INFO: Average training accuracy is 0.72024 at the end of epoch 23
+2023-04-27 18:17:27 INFO: Average validation accuracy is 0.64286 at the end of epoch 23
+2023-04-27 18:17:27 INFO: At 24-th epoch.
+2023-04-27 18:17:37 INFO: Average training loss is 0.77443 at the end of epoch 24
+2023-04-27 18:17:37 INFO: Average training accuracy is 0.67857 at the end of epoch 24
+2023-04-27 18:17:42 INFO: Average validation accuracy is 0.75000 at the end of epoch 24
+2023-04-27 18:17:42 INFO: At 25-th epoch.
+2023-04-27 18:17:52 INFO: Average training loss is 0.69699 at the end of epoch 25
+2023-04-27 18:17:52 INFO: Average training accuracy is 0.67857 at the end of epoch 25
+2023-04-27 18:17:57 INFO: Average validation accuracy is 0.66667 at the end of epoch 25
+2023-04-27 18:17:57 INFO: At 26-th epoch.
+2023-04-27 18:18:06 INFO: Average training loss is 0.68610 at the end of epoch 26
+2023-04-27 18:18:06 INFO: Average training accuracy is 0.69940 at the end of epoch 26
+2023-04-27 18:18:11 INFO: Average validation accuracy is 0.65476 at the end of epoch 26
+2023-04-27 18:18:11 INFO: At 27-th epoch.
+2023-04-27 18:18:21 INFO: Average training loss is 0.63610 at the end of epoch 27
+2023-04-27 18:18:21 INFO: Average training accuracy is 0.74107 at the end of epoch 27
+2023-04-27 18:18:26 INFO: Average validation accuracy is 0.69048 at the end of epoch 27
+2023-04-27 18:18:26 INFO: At 28-th epoch.
+2023-04-27 18:18:35 INFO: Average training loss is 0.64591 at the end of epoch 28
+2023-04-27 18:18:35 INFO: Average training accuracy is 0.72917 at the end of epoch 28
+2023-04-27 18:18:40 INFO: Average validation accuracy is 0.69048 at the end of epoch 28
+2023-04-27 18:18:40 INFO: At 29-th epoch.
+2023-04-27 18:18:50 INFO: Average training loss is 0.64483 at the end of epoch 29
+2023-04-27 18:18:50 INFO: Average training accuracy is 0.69940 at the end of epoch 29
+2023-04-27 18:18:55 INFO: Average validation accuracy is 0.71429 at the end of epoch 29
+2023-04-27 18:18:55 INFO: At 30-th epoch.
+2023-04-27 18:19:05 INFO: Average training loss is 0.61203 at the end of epoch 30
+2023-04-27 18:19:05 INFO: Average training accuracy is 0.73810 at the end of epoch 30
+2023-04-27 18:19:09 INFO: Average validation accuracy is 0.71429 at the end of epoch 30
+2023-04-27 18:19:09 INFO: At 31-th epoch.
+2023-04-27 18:19:19 INFO: Average training loss is 0.63786 at the end of epoch 31
+2023-04-27 18:19:19 INFO: Average training accuracy is 0.72321 at the end of epoch 31
+2023-04-27 18:19:24 INFO: Average validation accuracy is 0.54762 at the end of epoch 31
+2023-04-27 18:19:24 INFO: At 32-th epoch.
+2023-04-27 18:19:34 INFO: Average training loss is 0.61502 at the end of epoch 32
+2023-04-27 18:19:34 INFO: Average training accuracy is 0.71131 at the end of epoch 32
+2023-04-27 18:19:40 INFO: Average validation accuracy is 0.52381 at the end of epoch 32
+2023-04-27 18:19:40 INFO: At 33-th epoch.
+2023-04-27 18:19:50 INFO: Average training loss is 0.60830 at the end of epoch 33
+2023-04-27 18:19:50 INFO: Average training accuracy is 0.75595 at the end of epoch 33
+2023-04-27 18:19:55 INFO: Average validation accuracy is 0.60714 at the end of epoch 33
+2023-04-27 18:19:55 INFO: At 34-th epoch.
+2023-04-27 18:20:05 INFO: Average training loss is 0.63656 at the end of epoch 34
+2023-04-27 18:20:05 INFO: Average training accuracy is 0.71429 at the end of epoch 34
+2023-04-27 18:20:10 INFO: Average validation accuracy is 0.64286 at the end of epoch 34
+2023-04-27 18:20:10 INFO: At 35-th epoch.
+2023-04-27 18:20:20 INFO: Average training loss is 0.58098 at the end of epoch 35
+2023-04-27 18:20:20 INFO: Average training accuracy is 0.74107 at the end of epoch 35
+2023-04-27 18:20:25 INFO: Average validation accuracy is 0.59524 at the end of epoch 35
+2023-04-27 18:20:25 INFO: At 36-th epoch.
+2023-04-27 18:20:35 INFO: Average training loss is 0.61282 at the end of epoch 36
+2023-04-27 18:20:35 INFO: Average training accuracy is 0.78274 at the end of epoch 36
+2023-04-27 18:20:39 INFO: Average validation accuracy is 0.64286 at the end of epoch 36
+2023-04-27 18:20:39 INFO: At 37-th epoch.
+2023-04-27 18:20:49 INFO: Average training loss is 0.59698 at the end of epoch 37
+2023-04-27 18:20:49 INFO: Average training accuracy is 0.76190 at the end of epoch 37
+2023-04-27 18:20:54 INFO: Average validation accuracy is 0.61905 at the end of epoch 37
+2023-04-27 18:20:54 INFO: At 38-th epoch.
+2023-04-27 18:21:03 INFO: Average training loss is 0.58996 at the end of epoch 38
+2023-04-27 18:21:03 INFO: Average training accuracy is 0.77679 at the end of epoch 38
+2023-04-27 18:21:08 INFO: Average validation accuracy is 0.69048 at the end of epoch 38
+2023-04-27 18:21:08 INFO: At 39-th epoch.
+2023-04-27 18:21:18 INFO: Average training loss is 0.55560 at the end of epoch 39
+2023-04-27 18:21:18 INFO: Average training accuracy is 0.83631 at the end of epoch 39
+2023-04-27 18:21:23 INFO: Average validation accuracy is 0.63095 at the end of epoch 39
+2023-04-27 18:21:23 INFO: At 40-th epoch.
+2023-04-27 18:21:32 INFO: Average training loss is 0.55467 at the end of epoch 40
+2023-04-27 18:21:32 INFO: Average training accuracy is 0.77976 at the end of epoch 40
+2023-04-27 18:21:37 INFO: Average validation accuracy is 0.67857 at the end of epoch 40
+2023-04-27 18:21:37 INFO: At 41-th epoch.
+2023-04-27 18:21:47 INFO: Average training loss is 0.51288 at the end of epoch 41
+2023-04-27 18:21:47 INFO: Average training accuracy is 0.83036 at the end of epoch 41
+2023-04-27 18:21:52 INFO: Average validation accuracy is 0.65476 at the end of epoch 41
+2023-04-27 18:21:52 INFO: At 42-th epoch.
+2023-04-27 18:22:02 INFO: Average training loss is 0.46179 at the end of epoch 42
+2023-04-27 18:22:02 INFO: Average training accuracy is 0.82440 at the end of epoch 42
+2023-04-27 18:22:06 INFO: Average validation accuracy is 0.67857 at the end of epoch 42
+2023-04-27 18:22:06 INFO: At 43-th epoch.
+2023-04-27 18:22:16 INFO: Average training loss is 0.48371 at the end of epoch 43
+2023-04-27 18:22:16 INFO: Average training accuracy is 0.83631 at the end of epoch 43
+2023-04-27 18:22:21 INFO: Average validation accuracy is 0.70238 at the end of epoch 43
+2023-04-27 18:22:21 INFO: At 44-th epoch.
+2023-04-27 18:22:31 INFO: Average training loss is 0.51494 at the end of epoch 44
+2023-04-27 18:22:31 INFO: Average training accuracy is 0.80952 at the end of epoch 44
+2023-04-27 18:22:36 INFO: Average validation accuracy is 0.66667 at the end of epoch 44
+2023-04-27 18:22:36 INFO: At 45-th epoch.
+2023-04-27 18:22:45 INFO: Average training loss is 0.52534 at the end of epoch 45
+2023-04-27 18:22:45 INFO: Average training accuracy is 0.83631 at the end of epoch 45
+2023-04-27 18:22:50 INFO: Average validation accuracy is 0.70238 at the end of epoch 45
+2023-04-27 18:22:50 INFO: At 46-th epoch.
+2023-04-27 18:23:00 INFO: Average training loss is 0.47498 at the end of epoch 46
+2023-04-27 18:23:00 INFO: Average training accuracy is 0.85119 at the end of epoch 46
+2023-04-27 18:23:05 INFO: Average validation accuracy is 0.67857 at the end of epoch 46
+2023-04-27 18:23:05 INFO: At 47-th epoch.
+2023-04-27 18:23:14 INFO: Average training loss is 0.48877 at the end of epoch 47
+2023-04-27 18:23:14 INFO: Average training accuracy is 0.83631 at the end of epoch 47
+2023-04-27 18:23:19 INFO: Average validation accuracy is 0.60714 at the end of epoch 47
+2023-04-27 18:23:19 INFO: At 48-th epoch.
+2023-04-27 18:23:29 INFO: Average training loss is 0.47136 at the end of epoch 48
+2023-04-27 18:23:29 INFO: Average training accuracy is 0.84524 at the end of epoch 48
+2023-04-27 18:23:34 INFO: Average validation accuracy is 0.70238 at the end of epoch 48
+2023-04-27 18:23:34 INFO: At 49-th epoch.
+2023-04-27 18:23:43 INFO: Average training loss is 0.44423 at the end of epoch 49
+2023-04-27 18:23:43 INFO: Average training accuracy is 0.84821 at the end of epoch 49
+2023-04-27 18:23:48 INFO: Average validation accuracy is 0.63095 at the end of epoch 49
+2023-04-27 18:23:48 INFO: At 50-th epoch.
+2023-04-27 18:23:58 INFO: Average training loss is 0.41609 at the end of epoch 50
+2023-04-27 18:23:58 INFO: Average training accuracy is 0.85417 at the end of epoch 50
+2023-04-27 18:24:03 INFO: Average validation accuracy is 0.64286 at the end of epoch 50
+2023-04-27 18:24:03 INFO: At 51-th epoch.
+2023-04-27 18:24:12 INFO: Average training loss is 0.39644 at the end of epoch 51
+2023-04-27 18:24:12 INFO: Average training accuracy is 0.88095 at the end of epoch 51
+2023-04-27 18:24:17 INFO: Average validation accuracy is 0.73810 at the end of epoch 51
+2023-04-27 18:24:17 INFO: At 52-th epoch.
+2023-04-27 18:24:27 INFO: Average training loss is 0.41960 at the end of epoch 52
+2023-04-27 18:24:27 INFO: Average training accuracy is 0.88095 at the end of epoch 52
+2023-04-27 18:24:32 INFO: Average validation accuracy is 0.65476 at the end of epoch 52
+2023-04-27 18:24:32 INFO: At 53-th epoch.
+2023-04-27 18:24:41 INFO: Average training loss is 0.36841 at the end of epoch 53
+2023-04-27 18:24:41 INFO: Average training accuracy is 0.89881 at the end of epoch 53
+2023-04-27 18:24:46 INFO: Average validation accuracy is 0.71429 at the end of epoch 53
+2023-04-27 18:24:46 INFO: At 54-th epoch.
+2023-04-27 18:24:56 INFO: Average training loss is 0.43602 at the end of epoch 54
+2023-04-27 18:24:56 INFO: Average training accuracy is 0.89881 at the end of epoch 54
+2023-04-27 18:25:01 INFO: Average validation accuracy is 0.60714 at the end of epoch 54
+2023-04-27 18:25:01 INFO: At 55-th epoch.
+2023-04-27 18:25:10 INFO: Average training loss is 0.33606 at the end of epoch 55
+2023-04-27 18:25:10 INFO: Average training accuracy is 0.92857 at the end of epoch 55
+2023-04-27 18:25:15 INFO: Average validation accuracy is 0.61905 at the end of epoch 55
+2023-04-27 18:25:15 INFO: At 56-th epoch.
+2023-04-27 18:25:25 INFO: Average training loss is 0.30996 at the end of epoch 56
+2023-04-27 18:25:25 INFO: Average training accuracy is 0.92857 at the end of epoch 56
+2023-04-27 18:25:30 INFO: Average validation accuracy is 0.69048 at the end of epoch 56
+2023-04-27 18:25:30 INFO: At 57-th epoch.
+2023-04-27 18:25:39 INFO: Average training loss is 0.29788 at the end of epoch 57
+2023-04-27 18:25:39 INFO: Average training accuracy is 0.92262 at the end of epoch 57
+2023-04-27 18:25:44 INFO: Average validation accuracy is 0.67857 at the end of epoch 57
+2023-04-27 18:25:44 INFO: At 58-th epoch.
+2023-04-27 18:25:54 INFO: Average training loss is 0.29442 at the end of epoch 58
+2023-04-27 18:25:54 INFO: Average training accuracy is 0.94345 at the end of epoch 58
+2023-04-27 18:25:59 INFO: Average validation accuracy is 0.67857 at the end of epoch 58
+2023-04-27 18:25:59 INFO: At 59-th epoch.
+2023-04-27 18:26:09 INFO: Average training loss is 0.30845 at the end of epoch 59
+2023-04-27 18:26:09 INFO: Average training accuracy is 0.94345 at the end of epoch 59
+2023-04-27 18:26:14 INFO: Average validation accuracy is 0.66667 at the end of epoch 59
+2023-04-27 18:26:14 INFO: At 60-th epoch.
+2023-04-27 18:26:23 INFO: Average training loss is 0.29493 at the end of epoch 60
+2023-04-27 18:26:23 INFO: Average training accuracy is 0.92262 at the end of epoch 60
+2023-04-27 18:26:28 INFO: Average validation accuracy is 0.67857 at the end of epoch 60
+2023-04-27 18:26:28 INFO: At 61-th epoch.
+2023-04-27 18:26:38 INFO: Average training loss is 0.30769 at the end of epoch 61
+2023-04-27 18:26:38 INFO: Average training accuracy is 0.93750 at the end of epoch 61
+2023-04-27 18:26:43 INFO: Average validation accuracy is 0.69048 at the end of epoch 61
+2023-04-27 18:26:43 INFO: At 62-th epoch.
+2023-04-27 18:26:52 INFO: Average training loss is 0.25029 at the end of epoch 62
+2023-04-27 18:26:52 INFO: Average training accuracy is 0.94345 at the end of epoch 62
+2023-04-27 18:26:57 INFO: Average validation accuracy is 0.66667 at the end of epoch 62
+2023-04-27 18:26:57 INFO: At 63-th epoch.
+2023-04-27 18:27:07 INFO: Average training loss is 0.24020 at the end of epoch 63
+2023-04-27 18:27:07 INFO: Average training accuracy is 0.97024 at the end of epoch 63
+2023-04-27 18:27:12 INFO: Average validation accuracy is 0.65476 at the end of epoch 63
+2023-04-27 18:27:12 INFO: At 64-th epoch.
+2023-04-27 18:27:22 INFO: Average training loss is 0.19963 at the end of epoch 64
+2023-04-27 18:27:22 INFO: Average training accuracy is 0.95833 at the end of epoch 64
+2023-04-27 18:27:26 INFO: Average validation accuracy is 0.65476 at the end of epoch 64
+2023-04-27 18:27:26 INFO: At 65-th epoch.
+2023-04-27 18:27:36 INFO: Average training loss is 0.18511 at the end of epoch 65
+2023-04-27 18:27:36 INFO: Average training accuracy is 0.96131 at the end of epoch 65
+2023-04-27 18:27:41 INFO: Average validation accuracy is 0.71429 at the end of epoch 65
+2023-04-27 18:27:41 INFO: At 66-th epoch.
+2023-04-27 18:27:51 INFO: Average training loss is 0.19916 at the end of epoch 66
+2023-04-27 18:27:51 INFO: Average training accuracy is 0.94940 at the end of epoch 66
+2023-04-27 18:27:56 INFO: Average validation accuracy is 0.66667 at the end of epoch 66
+2023-04-27 18:27:56 INFO: At 67-th epoch.
+2023-04-27 18:28:05 INFO: Average training loss is 0.18869 at the end of epoch 67
+2023-04-27 18:28:05 INFO: Average training accuracy is 0.97321 at the end of epoch 67
+2023-04-27 18:28:10 INFO: Average validation accuracy is 0.64286 at the end of epoch 67
+2023-04-27 18:28:10 INFO: At 68-th epoch.
+2023-04-27 18:28:20 INFO: Average training loss is 0.16768 at the end of epoch 68
+2023-04-27 18:28:20 INFO: Average training accuracy is 0.98214 at the end of epoch 68
+2023-04-27 18:28:25 INFO: Average validation accuracy is 0.67857 at the end of epoch 68
+2023-04-27 18:28:25 INFO: At 69-th epoch.
+2023-04-27 18:28:34 INFO: Average training loss is 0.15322 at the end of epoch 69
+2023-04-27 18:28:34 INFO: Average training accuracy is 0.97917 at the end of epoch 69
+2023-04-27 18:28:39 INFO: Average validation accuracy is 0.65476 at the end of epoch 69
+2023-04-27 18:28:39 INFO: At 70-th epoch.
+2023-04-27 18:28:49 INFO: Average training loss is 0.18233 at the end of epoch 70
+2023-04-27 18:28:49 INFO: Average training accuracy is 0.97917 at the end of epoch 70
+2023-04-27 18:28:54 INFO: Average validation accuracy is 0.65476 at the end of epoch 70
+2023-04-27 18:28:54 INFO: At 71-th epoch.
+2023-04-27 18:29:03 INFO: Average training loss is 0.17189 at the end of epoch 71
+2023-04-27 18:29:03 INFO: Average training accuracy is 0.97024 at the end of epoch 71
+2023-04-27 18:29:09 INFO: Average validation accuracy is 0.66667 at the end of epoch 71
+2023-04-27 18:29:09 INFO: At 72-th epoch.
+2023-04-27 18:29:19 INFO: Average training loss is 0.17265 at the end of epoch 72
+2023-04-27 18:29:19 INFO: Average training accuracy is 0.98512 at the end of epoch 72
+2023-04-27 18:29:23 INFO: Average validation accuracy is 0.67857 at the end of epoch 72
+2023-04-27 18:29:23 INFO: At 73-th epoch.
+2023-04-27 18:29:34 INFO: Average training loss is 0.11802 at the end of epoch 73
+2023-04-27 18:29:34 INFO: Average training accuracy is 0.99107 at the end of epoch 73
+2023-04-27 18:29:39 INFO: Average validation accuracy is 0.69048 at the end of epoch 73
+2023-04-27 18:29:39 INFO: At 74-th epoch.
+2023-04-27 18:29:49 INFO: Average training loss is 0.22953 at the end of epoch 74
+2023-04-27 18:29:49 INFO: Average training accuracy is 0.99107 at the end of epoch 74
+2023-04-27 18:29:54 INFO: Average validation accuracy is 0.65476 at the end of epoch 74
+2023-04-27 18:29:54 INFO: At 75-th epoch.
+2023-04-27 18:30:04 INFO: Average training loss is 0.39488 at the end of epoch 75
+2023-04-27 18:30:04 INFO: Average training accuracy is 0.96726 at the end of epoch 75
+2023-04-27 18:30:09 INFO: Average validation accuracy is 0.63095 at the end of epoch 75
+2023-04-27 18:30:09 INFO: At 76-th epoch.
+2023-04-27 18:30:19 INFO: Average training loss is 0.17040 at the end of epoch 76
+2023-04-27 18:30:19 INFO: Average training accuracy is 0.96726 at the end of epoch 76
+2023-04-27 18:30:24 INFO: Average validation accuracy is 0.65476 at the end of epoch 76
+2023-04-27 18:30:24 INFO: At 77-th epoch.
+2023-04-27 18:30:34 INFO: Average training loss is 0.19546 at the end of epoch 77
+2023-04-27 18:30:34 INFO: Average training accuracy is 0.97917 at the end of epoch 77
+2023-04-27 18:30:39 INFO: Average validation accuracy is 0.67857 at the end of epoch 77
+2023-04-27 18:30:39 INFO: At 78-th epoch.
+2023-04-27 18:30:49 INFO: Average training loss is 0.12804 at the end of epoch 78
+2023-04-27 18:30:49 INFO: Average training accuracy is 0.98512 at the end of epoch 78
+2023-04-27 18:30:54 INFO: Average validation accuracy is 0.73810 at the end of epoch 78
+2023-04-27 18:30:54 INFO: At 79-th epoch.
+2023-04-27 18:31:06 INFO: Average training loss is 0.16942 at the end of epoch 79
+2023-04-27 18:31:06 INFO: Average training accuracy is 0.99107 at the end of epoch 79
+2023-04-27 18:31:11 INFO: Average validation accuracy is 0.70238 at the end of epoch 79
+2023-04-27 18:31:11 INFO: At 80-th epoch.
+2023-04-27 18:31:21 INFO: Average training loss is 0.09753 at the end of epoch 80
+2023-04-27 18:31:21 INFO: Average training accuracy is 0.98512 at the end of epoch 80
+2023-04-27 18:31:26 INFO: Average validation accuracy is 0.70238 at the end of epoch 80
+2023-04-27 18:31:26 INFO: At 81-th epoch.
+2023-04-27 18:31:36 INFO: Average training loss is 0.12273 at the end of epoch 81
+2023-04-27 18:31:36 INFO: Average training accuracy is 0.98512 at the end of epoch 81
+2023-04-27 18:31:41 INFO: Average validation accuracy is 0.70238 at the end of epoch 81
+2023-04-27 18:31:41 INFO: At 82-th epoch.
+2023-04-27 18:31:50 INFO: Average training loss is 0.08975 at the end of epoch 82
+2023-04-27 18:31:50 INFO: Average training accuracy is 1.00000 at the end of epoch 82
+2023-04-27 18:31:55 INFO: Average validation accuracy is 0.70238 at the end of epoch 82
+2023-04-27 18:31:55 INFO: At 83-th epoch.
+2023-04-27 18:32:05 INFO: Average training loss is 0.11259 at the end of epoch 83
+2023-04-27 18:32:05 INFO: Average training accuracy is 0.98810 at the end of epoch 83
+2023-04-27 18:32:10 INFO: Average validation accuracy is 0.69048 at the end of epoch 83
+2023-04-27 18:32:10 INFO: At 84-th epoch.
+2023-04-27 18:32:19 INFO: Average training loss is 0.04955 at the end of epoch 84
+2023-04-27 18:32:19 INFO: Average training accuracy is 0.99702 at the end of epoch 84
+2023-04-27 18:32:24 INFO: Average validation accuracy is 0.71429 at the end of epoch 84
+2023-04-27 18:32:24 INFO: At 85-th epoch.
+2023-04-27 18:32:35 INFO: Average training loss is 0.08391 at the end of epoch 85
+2023-04-27 18:32:35 INFO: Average training accuracy is 1.00000 at the end of epoch 85
+2023-04-27 18:32:40 INFO: Average validation accuracy is 0.69048 at the end of epoch 85
+2023-04-27 18:32:40 INFO: At 86-th epoch.
+2023-04-27 18:32:50 INFO: Average training loss is 0.14131 at the end of epoch 86
+2023-04-27 18:32:50 INFO: Average training accuracy is 0.98512 at the end of epoch 86
+2023-04-27 18:32:55 INFO: Average validation accuracy is 0.66667 at the end of epoch 86
+2023-04-27 18:32:55 INFO: At 87-th epoch.
+2023-04-27 18:33:04 INFO: Average training loss is 0.08868 at the end of epoch 87
+2023-04-27 18:33:04 INFO: Average training accuracy is 0.99107 at the end of epoch 87
+2023-04-27 18:33:09 INFO: Average validation accuracy is 0.72619 at the end of epoch 87
+2023-04-27 18:33:09 INFO: At 88-th epoch.
+2023-04-27 18:33:19 INFO: Average training loss is 0.13003 at the end of epoch 88
+2023-04-27 18:33:19 INFO: Average training accuracy is 0.98810 at the end of epoch 88
+2023-04-27 18:33:24 INFO: Average validation accuracy is 0.70238 at the end of epoch 88
+2023-04-27 18:33:24 INFO: At 89-th epoch.
+2023-04-27 18:33:34 INFO: Average training loss is 0.10704 at the end of epoch 89
+2023-04-27 18:33:34 INFO: Average training accuracy is 0.99702 at the end of epoch 89
+2023-04-27 18:33:39 INFO: Average validation accuracy is 0.67857 at the end of epoch 89
+2023-04-27 18:33:39 INFO: At 90-th epoch.
+2023-04-27 18:33:49 INFO: Average training loss is 0.04264 at the end of epoch 90
+2023-04-27 18:33:49 INFO: Average training accuracy is 1.00000 at the end of epoch 90
+2023-04-27 18:33:54 INFO: Average validation accuracy is 0.66667 at the end of epoch 90
+2023-04-27 18:33:54 INFO: At 91-th epoch.
+2023-04-27 18:34:06 INFO: Average training loss is 0.07620 at the end of epoch 91
+2023-04-27 18:34:06 INFO: Average training accuracy is 1.00000 at the end of epoch 91
+2023-04-27 18:34:11 INFO: Average validation accuracy is 0.67857 at the end of epoch 91
+2023-04-27 18:34:11 INFO: At 92-th epoch.
+2023-04-27 18:34:22 INFO: Average training loss is 0.14418 at the end of epoch 92
+2023-04-27 18:34:22 INFO: Average training accuracy is 0.99702 at the end of epoch 92
+2023-04-27 18:34:28 INFO: Average validation accuracy is 0.66667 at the end of epoch 92
+2023-04-27 18:34:28 INFO: At 93-th epoch.
+2023-04-27 18:34:38 INFO: Average training loss is 0.17694 at the end of epoch 93
+2023-04-27 18:34:38 INFO: Average training accuracy is 0.98810 at the end of epoch 93
+2023-04-27 18:34:43 INFO: Average validation accuracy is 0.66667 at the end of epoch 93
+2023-04-27 18:34:43 INFO: At 94-th epoch.
+2023-04-27 18:34:53 INFO: Average training loss is 0.10352 at the end of epoch 94
+2023-04-27 18:34:53 INFO: Average training accuracy is 0.99702 at the end of epoch 94
+2023-04-27 18:34:58 INFO: Average validation accuracy is 0.72619 at the end of epoch 94
+2023-04-27 18:34:58 INFO: At 95-th epoch.
+2023-04-27 18:35:08 INFO: Average training loss is 0.06895 at the end of epoch 95
+2023-04-27 18:35:08 INFO: Average training accuracy is 0.99405 at the end of epoch 95
+2023-04-27 18:35:13 INFO: Average validation accuracy is 0.72619 at the end of epoch 95
+2023-04-27 18:35:13 INFO: At 96-th epoch.
+2023-04-27 18:35:23 INFO: Average training loss is 0.06817 at the end of epoch 96
+2023-04-27 18:35:23 INFO: Average training accuracy is 0.99405 at the end of epoch 96
+2023-04-27 18:35:28 INFO: Average validation accuracy is 0.66667 at the end of epoch 96
+2023-04-27 18:35:28 INFO: At 97-th epoch.
+2023-04-27 18:35:38 INFO: Average training loss is 0.08138 at the end of epoch 97
+2023-04-27 18:35:38 INFO: Average training accuracy is 0.99405 at the end of epoch 97
+2023-04-27 18:35:43 INFO: Average validation accuracy is 0.71429 at the end of epoch 97
+2023-04-27 18:35:43 INFO: At 98-th epoch.
+2023-04-27 18:35:52 INFO: Average training loss is 0.07353 at the end of epoch 98
+2023-04-27 18:35:52 INFO: Average training accuracy is 1.00000 at the end of epoch 98
+2023-04-27 18:35:57 INFO: Average validation accuracy is 0.71429 at the end of epoch 98
+2023-04-27 18:35:57 INFO: At 99-th epoch.
+2023-04-27 18:36:07 INFO: Average training loss is 0.08361 at the end of epoch 99
+2023-04-27 18:36:07 INFO: Average training accuracy is 1.00000 at the end of epoch 99
+2023-04-27 18:36:12 INFO: Average validation accuracy is 0.73810 at the end of epoch 99
 best_train
 Metrics
-        Accuracy: 0.82386
-        Error Rate: 0.17614
-        Sensitivity: 0.7451
-        Specificity: 0.88442
-        Precision: 0.83212
-        Recall: 0.7451
-        F1: 0.78621
+        Accuracy: 0.57143
+        Error Rate: 0.42857
+        Sensitivity: 0.47183
+        Specificity: 0.64433
+        Precision: 0.49265
+        Recall: 0.47183
+        F1: 0.48201
 Confusion Matrix
-[[114  39 153]
- [ 23 176 199]
- [137 215 352]]
+[[ 67  75 142]
+ [ 69 125 194]
+ [136 200 336]]
 best_valid
 Metrics
-        Accuracy: 0.78125
-        Error Rate: 0.21875
-        Sensitivity: 0.6875
-        Specificity: 0.875
-        Precision: 0.84615
-        Recall: 0.6875
-        F1: 0.75862
+        Accuracy: 0.7381
+        Error Rate: 0.2619
+        Sensitivity: 0.86047
+        Specificity: 0.60976
+        Precision: 0.69811
+        Recall: 0.86047
+        F1: 0.77083
 Confusion Matrix
-[[22 10 32]
- [ 4 28 32]
- [26 38 64]]
+[[37  6 43]
+ [16 25 41]
+ [53 31 84]]
 test
 Metrics
-        Accuracy: 0.60938
-        Error Rate: 0.39062
-        Sensitivity: 0.37037
-        Specificity: 0.78378
-        Precision: 0.55556
-        Recall: 0.37037
-        F1: 0.44444
+        Accuracy: 0.72289
+        Error Rate: 0.27711
+        Sensitivity: 0.68421
+        Specificity: 0.75556
+        Precision: 0.7027
+        Recall: 0.68421
+        F1: 0.69333
 Confusion Matrix
-[[10 17 27]
- [ 8 29 37]
- [18 46 64]]
- best model valid f1: 0.75862 at epoch: 47
+[[26 12 38]
+ [11 34 45]
+ [37 46 83]]
+
