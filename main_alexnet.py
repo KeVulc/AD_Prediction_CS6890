@@ -82,7 +82,13 @@ def main(options):
     np.random.seed(SEED)
     random.seed(SEED)
 
+    
+    model_name = 'AlexNet2D_Pretrained'
+    # model_name = 'AlexNet2D_SE_Pretrained'
+    # model_name = 'AlexNet2D_SE_Topology'
+    # model_name = 'AlexNet2D_Topology'
 
+    random_split(SEED, 'subjects.txt', TRAINING_PATH, VALIDATION_PATH, TESTING_PATH)
 
     trg_size = (224, 224)
 
@@ -105,7 +111,7 @@ def main(options):
                              batch_size=options.batch_size,
                              shuffle=False,
                              num_workers=4,
-                             drop_last=True
+                             drop_last=False
                             )
 
     test_loader = DataLoader(dset_test,
@@ -120,13 +126,15 @@ def main(options):
         cuda.set_device(options.gpuid[0])
 
     # Initial the model
-    model = alexnet(pretrained=True)
+    if model_name == 'AlexNet2D_Pretrained':
+        model = alexnet(pretrained=True)
+    elif model_name == 'AlexNet2D_SE_Pretrained':
+        model = alexnet_se(pretrained=True)
+    elif model_name == 'AlexNet2D_SE_Topology':
+        model = alexnet_se_topology()
+    elif model_name == 'AlexNet2D_Topology':
+        model = alexnet(pretrained=False)
 
-    # same topology with se block in last conv layer (trained)
-    # model = alexnet_se(pretrained=True)
-
-    # SE blocks after convolutional layers 
-    # model = alexnet_se_topology()
 
     # model.load_state_dict(torch.load(options.load))
 
@@ -188,19 +196,15 @@ def main(options):
         if train_avg_loss.data.item() < options.estop:
             break
 
-    # model_name = 'AlexNet2D_Pretrained'
-    # model_name = 'AlexNet2D_SE_Pretrained'
-    # model_name = 'AlexNet2D_SE_Topology'
-    model_name = 'AlexNet2D_Topology'
 
     data_test = test(model, test_loader, use_cuda)
 
     print('best_train')
-    reportMetrics(best_data_train, f'./{model_name}_results/{model_name}_train_data.json', True)
+    reportMetrics(best_data_train, f'./{model_name}_results/{model_name}_train_data.txt', True)
     print('best_valid')
-    reportMetrics(best_data_valid, f'./{model_name}_results/{model_name}_valid_data.json', True)
+    reportMetrics(best_data_valid, f'./{model_name}_results/{model_name}_valid_data.tdt', True)
     print('test')
-    reportMetrics(data_test, f'./{model_name}_results/{model_name}_test_data.json', True)
+    reportMetrics(data_test, f'./{model_name}_results/{model_name}_test_data.txt', True)
     train_loss_f.close()
     train_acc_f.close()
     train_pre_f.close()
