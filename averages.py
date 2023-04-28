@@ -1,3 +1,5 @@
+from metrics import F1, accuracy, precision, recall, specificity
+
 def calculate_average(lis):
     return round(sum(lis)/len(lis), 5)
 
@@ -102,7 +104,13 @@ se_5 = {
 }
 
 
-def calc_avgs():
+def calc_avgs(list_of_dicts):
+    top_1 = list_of_dicts[1]
+    top_2 = list_of_dicts[2]
+    top_3 = list_of_dicts[3]
+    top_4 = list_of_dicts[4]
+    top_5 = list_of_dicts[5]
+
     average_accuracy_top = calculate_average(
         [top_1['Accuracy'], top_2['Accuracy'], top_3['Accuracy'], top_4['Accuracy'], top_5['Accuracy']]
     )
@@ -121,22 +129,27 @@ def calc_avgs():
 
     print(f'\t{average_f1_top}\t{average_accuracy_top}\t{average_precision_top}\t{average_recall_top}\t{average_specificity_top}')
 
-    average_accuracy_se = calculate_average(
-        [se_1['Accuracy'], se_2['Accuracy'], se_3['Accuracy'], se_4['Accuracy'], se_5['Accuracy']]
-    )
-    average_specificity_se = calculate_average(
-        [se_1['Specificity'], se_2['Specificity'], se_3['Specificity'], se_4['Specificity'], se_5['Specificity']]
-    )
-    average_precision_se = calculate_average(
-        [se_1['Precision'], se_2['Precision'], se_3['Precision'], se_4['Precision'], se_5['Precision']]
-    )
-    average_recall_se = calculate_average(
-        [se_1['Recall'], se_2['Recall'], se_3['Recall'], se_4['Recall'], se_5['Recall']]
-    )
-    average_f1_se = calculate_average(
-        [se_1['F1'], se_2['F1'], se_3['F1'], se_4['F1'], se_5['F1']]
-    )
-    
-    print(f'\t{average_f1_se}\t{average_accuracy_se}\t{average_precision_se}\t{average_recall_se}\t{average_specificity_se}')
+if __name__ == '__main__':
+    pretrained_data_f = open('./AlexNet2D_Pretrained_results/AlexNet2D_Pretrained_test_data.txt', 'r')
+    pretrained_se_data_f = open('./AlexNet2D_SE_Pretrained_results/AlexNet2D_SE_Pretrained_test_data.txt', 'r')
+    topology_se_data_f = open('./AlexNet2D_SE_Topology_results/AlexNet2D_SE_Topology_test_data.txt', 'r')
+    topology_data_f = open('./AlexNet2D_Topology_results/AlexNet2D_Topology_test_data.txt', 'r')
 
-calc_avgs()
+    models_data_fs = [pretrained_data_f, pretrained_se_data_f, topology_se_data_f, topology_data_f]
+
+    for file in models_data_fs:
+        list_of_dicts = []
+        for line in file:
+            dictionary = eval(line)
+            list_of_dicts.append(
+                {
+                    'F1': F1(dictionary),
+                    'Accuracy': accuracy(dictionary),
+                    'Precision': precision(dictionary),
+                    'Recall': recall(dictionary),
+                    'Specificity': specificity(dictionary),
+                }
+            )
+        calc_avgs(list_of_dicts)
+
+

@@ -57,7 +57,7 @@ parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
                     help='momentum')
 parser.add_argument('--weight-decay', '--wd', default=0, type=float,
                     metavar='W', help='weight decay (default: 1e-4)')
-parser.add_argument("--estop", default=1e-2, type=float,
+parser.add_argument("--estop", default=5e-2, type=float,
                     help="Early stopping criteria on the development set. (default=1e-2)")
 parser.add_argument("--batch_size", default=1, type=int,
                     help="Batch size for training. (default=1)")
@@ -77,16 +77,16 @@ def main(options):
     TESTING_PATH = 'split_test.txt'
     IMG_PATH = './Image'
 
-    SEED = 11
+    SEED = 5
     torch.manual_seed(SEED)
     np.random.seed(SEED)
     random.seed(SEED)
 
     
-    # model_name = 'AlexNet2D_Pretrained'
+    model_name = 'AlexNet2D_Pretrained'
     # model_name = 'AlexNet2D_SE_Pretrained'
     # model_name = 'AlexNet2D_SE_Topology'
-    model_name = 'AlexNet2D_Topology'
+    # model_name = 'AlexNet2D_Topology'
 
     random_split(SEED, 336, 84, 83, 'subjects.txt', TRAINING_PATH, VALIDATION_PATH, TESTING_PATH)
 
@@ -96,7 +96,7 @@ def main(options):
                                           CustomToTensor()
                                         ])
     
-    dset_train = AD_Standard_2DRandomSlicesData(IMG_PATH, TRAINING_PATH, transformations)
+    dset_train = AD_Standard_2DRandomSlicesData(IMG_PATH, TRAINING_PATH, transformations, SEED)
     dset_valid = AD_Standard_2DSlicesData(IMG_PATH, VALIDATION_PATH, transformations)
     dset_test = AD_Standard_2DSlicesData(IMG_PATH, TESTING_PATH, transformations)
 
