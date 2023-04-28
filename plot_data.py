@@ -42,12 +42,14 @@ if losses:
 
 
     plt.xlabel('epochs')
+    plt.xlabel('loss')
     plt.ylim(0, 10)
     plt.plot(range(len(pretrained_loss)), pretrained_loss, label = f"AlexNet2D_Pretrained loss")
     plt.plot(range(len(pretrained_se_loss)), pretrained_se_loss, label = f"AlexNet2D_SE_Pretrained loss")
     plt.plot(range(len(topology_se_loss)), topology_se_loss, label = f"AlexNet2D_SE_Topology loss")
     plt.plot(range(len(topology_loss)), topology_loss, label = f"AlexNet2D_Topology loss")
     plt.legend(loc='upper left')
+    plt.title('Losses across epochs')
     plt.savefig(f'./losses.png')
     plt.clf()
 
