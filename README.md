@@ -12,3 +12,10 @@ A seed value is initialized in the main_alexnet.py file.
 For the figures constructed, a seed of 11 was used. For the five subsequent runs, a seed of 1-5 was used.
 
 For the figures constructed, an early stoppage of 1e-2 was used. For the five subsequent runs, an early stoppage of 5e-2 was used.
+
+Dependencies
+- torch 1.13.0
+- numpy 1.21.5
+- skimage 0.19.2
+- pillow 9.2.0
+- torchvision 0.14.0
